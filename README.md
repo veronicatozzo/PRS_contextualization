@@ -5,8 +5,7 @@ Dependencies:
     - pandas 
     - numpy
     - fire
-- R/4.2 
-     - 
+    - matplotlib
 - pgsc_calc (see https://pgsc-calc.readthedocs.io/en/latest/ and pgsc_calc_guide.md for instructions)
 
 
