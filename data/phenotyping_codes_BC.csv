@@ -1,0 +1,92 @@
+,Code,Description,Code_type,Record_type
+0,174,Malignant neoplasm of female breast,ICD9,Condition
+1,174.0,Malignant neoplasm of nipple and areola of female breast,ICD9,Condition
+2,174.1,Malignant neoplasm of central portion of female breast,ICD9,Condition
+3,174.2,Malignant neoplasm of upper-inner quadrant of female breast,ICD9,Condition
+4,174.3,Malignant neoplasm of lower-inner quadrant of female breast,ICD9,Condition
+5,174.4,Malignant neoplasm of upper-outer quadrant of female breast,ICD9,Condition
+6,174.5,Malignant neoplasm of lower-outer quadrant of female breast,ICD9,Condition
+7,174.6,Malignant neoplasm of axillary tail of female breast,ICD9,Condition
+8,174.8,Malignant neoplasm of other specified sites of female breast,ICD9,Condition
+9,174.9,"Malignant neoplasm of breast (female), unspecified",ICD9,Condition
+10,233.0,Carcinoma in situ of breast,ICD9,Condition
+11,V10.3,Personal history of malignant neoplasm of breast,ICD9,Condition
+12,174.10,Malignant neoplasm of female breast,PheCode,Condition
+13,174.11,Breast cancer [female],PheCode,Condition
+15,D05.10,Intraductal carcinoma in situ of unspecified breast,ICD10,Condition
+16,D05.90,Unspecified type of carcinoma in situ of unspecified breast,ICD10,Condition
+17,D05.1,Intraductal carcinoma in situ of breast,ICD10,Condition
+18,D05.11,Intraductal carcinoma in situ of right breast,ICD10,Condition
+19,D05,Carcinoma in situ of breast,ICD10,Condition
+20,D05.80,Other specified type of carcinoma in situ of unspecified breast,ICD10,Condition
+21,D05.82,Other specified type of carcinoma in situ of left breast,ICD10,Condition
+22,D05.92,Unspecified type of carcinoma in situ of left breast,ICD10,Condition
+23,D05.12,Intraductal carcinoma in situ of left breast,ICD10,Condition
+24,D05.91,Unspecified type of carcinoma in situ of right breast,ICD10,Condition
+25,D05.8,Other specified type of carcinoma in situ of breast,ICD10,Condition
+26,D05.9,Unspecified type of carcinoma in situ of breast,ICD10,Condition
+27,D05.81,Other specified type of carcinoma in situ of right breast,ICD10,Condition
+28,C50.211,Malignant neoplasm of upper-inner quadrant of right female breast,ICD10,Condition
+29,C50.011,"Malignant neoplasm of nipple and areola, right female breast",ICD10,Condition
+30,C50.51,"Malignant neoplasm of lower-outer quadrant of breast, female",ICD10,Condition
+31,C50.511,Malignant neoplasm of lower-outer quadrant of right female breast,ICD10,Condition
+32,C50.919,Malignant neoplasm of unspecified site of unspecified female breast,ICD10,Condition
+33,C50.11,"Malignant neoplasm of central portion of breast, female",ICD10,Condition
+34,C50.811,Malignant neoplasm of overlapping sites of right female breast,ICD10,Condition
+35,C50.619,Malignant neoplasm of axillary tail of unspecified female breast,ICD10,Condition
+36,C50.119,Malignant neoplasm of central portion of unspecified female breast,ICD10,Condition
+37,C50.112,Malignant neoplasm of central portion of left female breast,ICD10,Condition
+38,C50.411,Malignant neoplasm of upper-outer quadrant of right female breast,ICD10,Condition
+39,C50.611,Malignant neoplasm of axillary tail of right female breast,ICD10,Condition
+40,C50.219,Malignant neoplasm of upper-inner quadrant of unspecified female breast,ICD10,Condition
+41,C50.312,Malignant neoplasm of lower-inner quadrant of left female breast,ICD10,Condition
+42,C50.61,"Malignant neoplasm of axillary tail of breast, female",ICD10,Condition
+43,C50.912,Malignant neoplasm of unspecified site of left female breast,ICD10,Condition
+44,C50.519,Malignant neoplasm of lower-outer quadrant of unspecified female breast,ICD10,Condition
+45,C50.212,Malignant neoplasm of upper-inner quadrant of left female breast,ICD10,Condition
+46,C50.812,Malignant neoplasm of overlapping sites of left female breast,ICD10,Condition
+47,C50.412,Malignant neoplasm of upper-outer quadrant of left female breast,ICD10,Condition
+48,C50.21,"Malignant neoplasm of upper-inner quadrant of breast, female",ICD10,Condition
+49,C50.111,Malignant neoplasm of central portion of right female breast,ICD10,Condition
+50,C50.319,Malignant neoplasm of lower-inner quadrant of unspecified female breast,ICD10,Condition
+51,C50.019,"Malignant neoplasm of nipple and areola, unspecified female breast",ICD10,Condition
+52,C50.311,Malignant neoplasm of lower-inner quadrant of right female breast,ICD10,Condition
+53,C50.01,"Malignant neoplasm of nipple and areola, female",ICD10,Condition
+54,C50.41,"Malignant neoplasm of upper-outer quadrant of breast, female",ICD10,Condition
+55,C50.012,"Malignant neoplasm of nipple and areola, left female breast",ICD10,Condition
+56,C50.512,Malignant neoplasm of lower-outer quadrant of left female breast,ICD10,Condition
+57,C50.81,"Malignant neoplasm of overlapping sites of breast, female",ICD10,Condition
+58,C50.819,Malignant neoplasm of overlapping sites of unspecified female breast,ICD10,Condition
+59,C50.419,Malignant neoplasm of upper-outer quadrant of unspecified female breast,ICD10,Condition
+60,C50.91,"Malignant neoplasm of breast of unspecified site, female",ICD10,Condition
+61,C50.911,Malignant neoplasm of unspecified site of right female breast,ICD10,Condition
+62,C50.612,Malignant neoplasm of axillary tail of left female breast,ICD10,Condition
+63,C50.31,"Malignant neoplasm of lower-inner quadrant of breast, female",ICD10,Condition
+64,Z85.3,Personal history of malignant neoplasm of breast,ICD10,Condition
+65,188155002,Malignant neoplasm of lower-outer quadrant of female breast,SNOMED,Condition
+66,188151006,Malignant neoplasm of central part of female breast,SNOMED,Condition
+67,188154003,Malignant neoplasm of upper-outer quadrant of female breast,SNOMED,Condition
+68,94115006,Primary malignant neoplasm of upper inner quadrant of female breast,SNOMED,Condition
+69,188157005,Malignant neoplasm of overlapping sites of breast,SNOMED,Condition
+70,188156001,Malignant neoplasm of axillary tail of female breast,SNOMED,Condition
+71,2985005,"Paget's disease, mammary",SNOMED,Condition
+72,372064008,Malignant neoplasm of lower-inner quadrant of female breast,SNOMED,Condition
+73,188152004,Malignant neoplasm of upper-inner quadrant of female breast,SNOMED,Condition
+74,188147009,Malignant neoplasm of nipple and areola of female breast,SNOMED,Condition
+75,254837009,Malignant tumor of breast,SNOMED,Condition
+76,403946000,Paget's disease of nipple,SNOMED,Condition
+77,189336000,Carcinoma in situ of breast,SNOMED,Condition
+78,109889007,Intraductal carcinoma in situ of breast,SNOMED,Condition
+79,1079811000,Intraductal carcinoma in situ of left breast,SNOMED,Condition
+80,1162814007,Non-infiltrating intraductal carcinoma,SNOMED,Condition
+81,3544710001,Lobular carcinoma in situ of right breast,SNOMED,Condition
+82,3543410001,Lobular carcinoma in situ of left breast,SNOMED,Condition
+83,109888004,Lobular carcinoma in situ of breast,SNOMED,Condition
+84,1079821000,Intraductal carcinoma in situ of right breast,SNOMED,Condition
+4,C50.1,Malignant neoplasm of central portion of breast,ICD10,Condition
+9,C50.2,Malignant neoplasm of upper-inner quadrant of breast,ICD10,Condition
+14,C50.3,Malignant neoplasm of lower-inner quadrant of breast,ICD10,Condition
+19,C50.4,Malignant neoplasm of upper-outer quadrant of breast,ICD10,Condition
+24,C50.5,Malignant neoplasm of lower-outer quadrant of breast,ICD10,Condition
+29,C50.6,Malignant neoplasm of axillary tail of breast,ICD10,Condition
+67,Z86.000,Personal history of in-situ neoplasm of breast,ICD10,Condition
