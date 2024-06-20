@@ -6,7 +6,9 @@ Dependencies:
     - numpy
     - fire
 - R/4.2 
-     - 
+     - rcompanion
+     - pROC
+     - optparse
 - pgsc_calc (see https://pgsc-calc.readthedocs.io/en/latest/ and pgsc_calc_guide.md for instructions)
 
 
