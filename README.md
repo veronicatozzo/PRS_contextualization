@@ -5,7 +5,8 @@ Dependencies:
     - pandas 
     - numpy
     - fire
-    - matplotlib
+- R/4.2 
+     - 
 - pgsc_calc (see https://pgsc-calc.readthedocs.io/en/latest/ and pgsc_calc_guide.md for instructions)
 
 
@@ -40,5 +41,5 @@ Also look into the matchfile in  biobanknamespecifiedinsamplesheet_summary.csv a
 Evaluate effect sizes for PGS across and within context by launching `3_context_effect_size.sh`. In the script the user will need to specify the path to the phenotype file generated at step 1, the PGS file with the columns ['ID', 'BC_eMERGE', 'BC_PGS000507', 'CHD_eMERGE', 'CHD_PGS003725'] obtained after step 2, and the folder where to store all the results. 
 
 
-More steps might come later on. 
+Evaluate R2 score and AUC differences by contexts. This can be done by launching `3_R2_AUC_by_context.sh` after changing the proper filename in the script. Temporary plot visualizations can be obtained with the notebook `utils/R2_score_plots.ipynb`
 

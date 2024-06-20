@@ -151,7 +151,60 @@ def calculate_effect_sizes(pgs_file, data_file, path_to_results):
         plot_effect_sizes(final_results[p], join(path_to_results, p+'.pdf'))
         final_results[p].to_csv(join(path_to_results, p+'.tsv'), sep='\t', index=None)  
         
+
         
+
+def residualize(data, prs, covs):
+    res = sm.OLS(data[prs], 
+                sm.add_constant(data[covs]),
+                missing='drop').fit().resid
+    res = (res-res.mean())/res.std()
+    return res
+    
+    
+def format_PGS_for_R2_analysis(phenotype_file, pgs_file, path_to_results):
+    PGS = ['BC_eMERGE', 'BC_PGS000507', 'CHD_eMERGE', 'CHD_PGS003725']
+    pgs = pd.read_csv(pgs_file, sep='\t')
+    data = pd.read_csv(phenotype_file, sep='\t')
+    data = data.merge(pgs, on='ID')
+    data = pd.concat((data,
+                     pd.get_dummies(data['SIRE']),
+                     pd.get_dummies(data['self_identified_sex'])),
+                    axis=1)
+    covs = ['Asian', 'Black', 'Hispanic', 'Other',
+        'PC1', 'PC2', 'PC3', 'PC4', 'PC5', 'PC6', 'PC7', 'PC8',
+       'PC9', 'PC10', 'Female'] 
+    pcs = [ 'PC1', 'PC2', 'PC3', 'PC4', 'PC5', 'PC6', 'PC7', 'PC8', 'PC9', 'PC10']
+    for p in PGS:
+        phe = p.split('_')[0]
+
+        data_to_analyze = data[pd.notnull(data[phe])]
+        data_to_analyze[f"Age_binned"] = pd.cut(data[f"{phe}_age"], [18, 45, 65, 100]).astype(str)
+        data_to_analyze[f"BMI_binned"] = pd.cut(data[f"{phe}_BMI"], [0, 18.5, 24.9, 30, 50]).astype(str)
+        covs_aux = covs+[f'{phe}_age', f'{phe}_BMI']
+        data_to_analyze = data_to_analyze[(data_to_analyze.self_identified_sex.isin(['Female', 'Male']))&
+                                         (data_to_analyze.Age_binned!='nan')&
+                                         (data_to_analyze.BMI_binned!='nan')&
+                                         (data_to_analyze.ancestry!='Unclassified')
+                                         ]
+
+        data_to_analyze['PRS_PC'] = residualize(data_to_analyze, p, pcs)
+        data_to_analyze['PRS_PC_sex'] = residualize(data_to_analyze, p, pcs+['Female'])
+        data_to_analyze['PRS_PC_BMI'] = residualize(data_to_analyze, p, pcs+[f'{phe}_BMI'])
+        data_to_analyze['PRS_PC_age'] = residualize(data_to_analyze, p, pcs+[ f'{phe}_age'])
+        data_to_analyze['PRS_PC_all'] = residualize(data_to_analyze, p, covs_aux)
+
+        data_to_analyze = data_to_analyze[['ID', 'self_identified_sex', 'SIRE', 'ancestry', 
+                                           'PC1', 'PC2', 'PC3', 'PC4', 'PC5', 'PC6', 'PC7', 
+                                           'PC8', 'PC9', 'PC10', phe, f"{phe}_age",f"{phe}_BMI",
+                                           'Age_binned', 'BMI_binned', 'PRS_PC', 'PRS_PC_sex', 
+                                           'PRS_PC_BMI', 'PRS_PC_age', 'PRS_PC_all']]
+        data_to_analyze.columns = ['ID', 'self_identified_sex', 'SIRE', 'ancestry', 'PC1',
+                                   'PC2', 'PC3', 'PC4', 'PC5', 'PC6', 'PC7', 'PC8', 'PC9',
+                                   'PC10', 'phenotype', 'age', 'bmi','Age_binned', 'BMI_binned',
+                                   'PRS_PC', 'PRS_PC_sex', 'PRS_PC_BMI', 'PRS_PC_age', 'PRS_PC_all']
+        data_to_analyze.to_csv(join(path_to_results, f"{p}.csv"), index=None)
+
         
 if __name__=='__main__':
     fire.Fire()
