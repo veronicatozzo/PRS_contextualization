@@ -52,7 +52,7 @@ def get_glm_coef_context_standardized(data, phe, p, covs):
 def plot_effect_sizes(results, file_to_save):
     rcParams.update({'font.size':12})
 
-    fig, ax = plt.subplots(1, 4, figsize=(15, 5))#, sharex=True)
+    fig, ax = plt.subplots(1, 4, figsize=(15, 5), sharex=True)#, sharex=True)
     
     groups = {'Ancestry':['All','AFR', 'AMR', 'EAS', 'EUR', 'SAS'],
              'SIRE':['All','Asian', 'Black', 'Hispanic', 'Other', 'White'],
