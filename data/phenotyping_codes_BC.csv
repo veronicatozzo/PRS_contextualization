@@ -1,4 +1,4 @@
-,Code,Description,Code_type,Record_type
+Unnamed: 0,Code,Description,Code_type,Record_type
 0,174,Malignant neoplasm of female breast,ICD9,Condition
 1,174.0,Malignant neoplasm of nipple and areola of female breast,ICD9,Condition
 2,174.1,Malignant neoplasm of central portion of female breast,ICD9,Condition
@@ -10,7 +10,7 @@
 8,174.8,Malignant neoplasm of other specified sites of female breast,ICD9,Condition
 9,174.9,"Malignant neoplasm of breast (female), unspecified",ICD9,Condition
 10,233.0,Carcinoma in situ of breast,ICD9,Condition
-11,V10.3,Personal history of malignant neoplasm of breast,ICD9,Condition
+11,V10.3,Personal history of malignant neoplasm of breast,ICD9,Other
 12,174.10,Malignant neoplasm of female breast,PheCode,Condition
 13,174.11,Breast cancer [female],PheCode,Condition
 15,D05.10,Intraductal carcinoma in situ of unspecified breast,ICD10,Condition
@@ -62,7 +62,7 @@
 61,C50.911,Malignant neoplasm of unspecified site of right female breast,ICD10,Condition
 62,C50.612,Malignant neoplasm of axillary tail of left female breast,ICD10,Condition
 63,C50.31,"Malignant neoplasm of lower-inner quadrant of breast, female",ICD10,Condition
-64,Z85.3,Personal history of malignant neoplasm of breast,ICD10,Condition
+64,Z85.3,Personal history of malignant neoplasm of breast,ICD10,Other
 65,188155002,Malignant neoplasm of lower-outer quadrant of female breast,SNOMED,Condition
 66,188151006,Malignant neoplasm of central part of female breast,SNOMED,Condition
 67,188154003,Malignant neoplasm of upper-outer quadrant of female breast,SNOMED,Condition
@@ -89,4 +89,4 @@
 19,C50.4,Malignant neoplasm of upper-outer quadrant of breast,ICD10,Condition
 24,C50.5,Malignant neoplasm of lower-outer quadrant of breast,ICD10,Condition
 29,C50.6,Malignant neoplasm of axillary tail of breast,ICD10,Condition
-67,Z86.000,Personal history of in-situ neoplasm of breast,ICD10,Condition
+67,Z86.000,Personal history of in-situ neoplasm of breast,ICD10,Other

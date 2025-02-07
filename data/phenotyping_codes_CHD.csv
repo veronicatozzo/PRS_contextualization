@@ -1,561 +1,693 @@
-,Unnamed: 0.1,Unnamed: 0,Code,Description,Code_type,Record_type
-0,0,0.0,410,Acute myocardial infarction,ICD9,Condition
-1,1,1.0,411,Other acute and subacute forms of ischemic heart disease,ICD9,Condition
-2,2,2.0,411.1,Unstable Angina,ICD9,Condition
-3,3,3.0,411.9,Other acute and subacute forms of ischaemic heart disease,ICD9,Condition
-4,4,4.0,412,Old myocardial infarction,ICD9,Condition
-5,5,5.0,413,Angina pectoris,ICD9,Condition
-6,6,6.0,414,Other forms of chronic ischemic heart disease,ICD9,Condition
-7,7,7.0,414.0,Coronary atherosclerosis,ICD9,Condition
-8,8,8.0,414.2,Chronic total occlusion of coronary artery,ICD9,Condition
-9,9,9.0,414.3,Coronary atherosclerosis due to lipid rich plaque,ICD9,Condition
-10,10,10.0,414.4,Coronary atherosclerosis due to calcified coronary lesion,ICD9,Condition
-11,11,11.0,414.8,Other specified forms of chronic ischemic heart disease,ICD9,Condition
-12,12,12.0,414.9,Chronic ischemic heart disease unspecified,ICD9,Condition
-13,13,13.0,429.7,"Certain sequelae of myocardial infarction, not elsewhere classified",ICD9,Condition
-14,14,14.0,V45.81,Aortocoronary bypass status,ICD9,Condition
-15,15,15.0,V45.82,Percutaneous transluminal coronary angioplasty status,ICD9,Condition
-16,16,16.0,36.01,"Single vessel percutaneous transluminal coronary angioplasty [PTCA] or coronary
+Code,Description,Code_type,Record_type
+410,Acute myocardial infarction,ICD9,Condition
+411,Other acute and subacute forms of ischemic heart disease,ICD9,Condition
+411.1,Unstable Angina,ICD9,Condition
+411.9,Other acute and subacute forms of ischaemic heart disease,ICD9,Condition
+412,Old myocardial infarction,ICD9,Condition
+413,Angina pectoris,ICD9,Condition
+414,Other forms of chronic ischemic heart disease,ICD9,Condition
+414.0,Coronary atherosclerosis,ICD9,Condition
+414.2,Chronic total occlusion of coronary artery,ICD9,Condition
+414.3,Coronary atherosclerosis due to lipid rich plaque,ICD9,Condition
+414.4,Coronary atherosclerosis due to calcified coronary lesion,ICD9,Condition
+414.8,Other specified forms of chronic ischemic heart disease,ICD9,Condition
+414.9,Chronic ischemic heart disease unspecified,ICD9,Condition
+429.7,"Certain sequelae of myocardial infarction, not elsewhere classified",ICD9,Condition
+V45.81,Aortocoronary bypass status,ICD9,Condition
+V45.82,Percutaneous transluminal coronary angioplasty status,ICD9,Condition
+36.01,"Single vessel percutaneous transluminal coronary angioplasty [PTCA] or coronary
  atherectomy without mention of thrombolytic agent",ICD9,Procedure
-17,17,17.0,36.02,"Single vessel percutaneous transluminal coronary angioplasty [PTCA] or coronary
+36.02,"Single vessel percutaneous transluminal coronary angioplasty [PTCA] or coronary
  atherectomy with mention of thrombolytic agent",ICD9,Procedure
-18,18,18.0,36.03,Open Chest Coronary Artery Angioplasty,ICD9,Procedure
-19,19,19.0,36.05,"Multiple vessel percutaneous transluminal coronary angioplasty [PTCA] or coronary
+36.03,Open Chest Coronary Artery Angioplasty,ICD9,Procedure
+36.05,"Multiple vessel percutaneous transluminal coronary angioplasty [PTCA] or coronary
  atherectomy performed during the same operation, with or without mention of
  thrombolytic agent",ICD9,Procedure
-20,20,20.0,36.06,Insertion of non-drug-eluting coronary artery stent(s),ICD9,Procedure
-21,21,21.0,36.07,Insertion of drug-eluting coronary artery stent(s),ICD9,Procedure
-22,22,22.0,36.09,Other Removal Of Coronary Artery Obstruction,ICD9,Procedure
-23,23,23.0,36.10,"Aortocoronary Bypass For Heart Revascularization, Not Otherwise Specified",ICD9,Procedure
-24,24,24.0,36.11,(Aorto)coronary bypass of one coronary artery,ICD9,Procedure
-25,25,25.0,36.12,Aortocoronary Bypass Of Two Coronary Arteries,ICD9,Procedure
-26,26,26.0,36.13,Aortocoronary Bypass Of Three Coronary Arteries,ICD9,Procedure
-27,27,27.0,36.14,Aortocoronary Bypass Of Four Or More Coronary Arteries,ICD9,Procedure
-28,28,28.0,36.15,Single Internal Mammary-Coronary Artery Bypass,ICD9,Procedure
-29,29,29.0,36.16,Double Internal Mammary-Coronary Artery Bypass,ICD9,Procedure
-30,30,30.0,36.17,Abdominal-Coronary Artery Bypass,ICD9,Procedure
-31,31,31.0,36.19,Other Bypass Anastomosis For Heart Revascularization,ICD9,Procedure
-32,32,32.0,36.2,CABG surgery,ICD9,Procedure
-33,33,33.0,I20,Unstable Angina,ICD10,Condition
-34,34,34.0,I21,Acute myocardial infarction,ICD10,Condition
-35,35,35.0,I21.0,ST elevation (STEMI) myocardial infarction of anterior wall,ICD10,Condition
-36,36,36.0,I21.01,ST elevation (STEMI) myocardial infarction involving left main coronary artery,ICD10,Condition
-37,37,37.0,I21.02,ST elevation (STEMI) myocardial infarction involving left anterior descending coronary artery,ICD10,Condition
-38,38,38.0,I21.09,ST elevation (STEMI) myocardial infarction involving other coronary artery of anterior wall,ICD10,Condition
-39,39,39.0,I21.1,ST elevation (STEMI) myocardial infarction of inferior wall,ICD10,Condition
-40,40,40.0,I21.11,ST elevation (STEMI) myocardial infarction involving right coronary artery,ICD10,Condition
-41,41,41.0,I21.19,ST elevation (STEMI) myocardial infarction involving other coronary artery of inferior wall,ICD10,Condition
-42,42,42.0,I21.2,ST elevation (STEMI) myocardial infarction of other sites,ICD10,Condition
-43,43,43.0,I21.21,ST elevation (STEMI) myocardial infarction involving left circumflex coronary artery,ICD10,Condition
-44,44,44.0,I21.29,ST elevation (STEMI) myocardial infarction involving other sites,ICD10,Condition
-45,45,45.0,I21.3,ST elevation (STEMI) myocardial infarction of unspecified site,ICD10,Condition
-46,46,46.0,I21.4,Non-ST elevation (NSTEMI) myocardial infarction,ICD10,Condition
-47,47,47.0,I21.9,"Acute myocardial infarction, unspecified",ICD10,Condition
-48,48,48.0,I21.A,Other type of myocardial infarction,ICD10,Condition
-49,49,49.0,I21.A1,Myocardial infarction type 2,ICD10,Condition
-50,50,50.0,I21.A9,Other myocardial infarction type,ICD10,Condition
-51,51,51.0,I22,Subsequent ST elevation (STEMI) and non-ST elevation (NSTEMI) myocardial infarction,ICD10,Condition
-52,52,52.0,I22.0,Subsequent ST elevation (STEMI) myocardial infarction of anterior wall,ICD10,Condition
-53,53,53.0,I22.1,Subsequent ST elevation (STEMI) myocardial infarction of inferior wall,ICD10,Condition
-54,54,54.0,I22.2,Subsequent non-ST elevation (NSTEMI) myocardial infarction,ICD10,Condition
-55,55,55.0,I22.8,Subsequent ST elevation (STEMI) myocardial infarction of other sites,ICD10,Condition
-56,56,56.0,I22.9,Subsequent ST elevation (STEMI) myocardial infarction of unspecified site,ICD10,Condition
-57,57,57.0,I23,Certain current complications following ST elevation (STEMI) and non-ST elevation (NSTEMI) myocardial infarction (within the 28 day period),ICD10,Condition
-58,58,58.0,I23.0,Hemopericardium as current complication following acute myocardial infarction,ICD10,Condition
-59,59,59.0,I23.1,Atrial septal defect as current complication following acute myocardial infarction,ICD10,Condition
-60,60,60.0,I23.2,Ventricular septal defect as current complication following acute myocardial infarction,ICD10,Condition
-61,61,61.0,I23.3,Rupture of cardiac wall without hemopericardium as current complication following acute myocardial infarction,ICD10,Condition
-62,62,62.0,I23.5,Rupture of papillary muscle as current complication following acute myocardial infarction,ICD10,Condition
-63,63,63.0,I23.6,"Thrombosis of atrium, auricular appendage, and ventricle as current complications following acute myocardial infarction",ICD10,Condition
-64,64,64.0,I23.7,Postinfarction angina,ICD10,Condition
-65,65,65.0,I23.8,Other current complications following acute myocardial infarction,ICD10,Condition
-66,66,66.0,I24,Other acute ischemic heart diseases,ICD10,Condition
-67,67,67.0,I24.0,Acute coronary thrombosis not resulting in myocardial infarction,ICD10,Condition
-68,68,68.0,I24.1,Dressler's syndrome,ICD10,Condition
-69,69,69.0,I24.8,Other forms of acute ischemic heart disease,ICD10,Condition
-70,70,70.0,I24.9,"Acute ischemic heart disease, unspecified",ICD10,Condition
-71,71,71.0,I25,Chronic Ischemic Heart Disease,ICD10,Condition
-72,72,72.0,I25.1,Atherosclerotic heart disease of native coronary artery,ICD10,Condition
-73,73,73.0,I25.110,Atherosclerotic heart disease of native coronary artery with unstable angina pectoris,ICD10,Condition
-74,74,74.0,I25.111,Atherosclerotic heart disease of native coronary artery with angina pectoris with documented spasm,ICD10,Condition
-75,75,75.0,I25.118,Atherosclerotic heart disease of native coronary artery with other forms of angina pectoris,ICD10,Condition
-76,76,76.0,I25.119,Atherosclerotic heart disease of native coronary artery with unspecified angina pectoris,ICD10,Condition
-77,77,77.0,I25.2,Old myocardial infarction,ICD10,Condition
-78,78,78.0,I25.5,Ischemic cardiomyopathy,ICD10,Condition
-79,79,79.0,I25.6,Silent myocardial ischemia,ICD10,Condition
-80,80,80.0,I25.700,"Atherosclerosis of coronary artery bypass graft(s), unspecified, with unstable angina pectoris",ICD10,Condition
-81,81,81.0,I25.701,"Atherosclerosis of coronary artery bypass graft(s), unspecified, with angina pectoris with documented spasm",ICD10,Condition
-82,82,82.0,I25.708,"Atherosclerosis of coronary artery bypass graft(s), unspecified, with other forms of angina pectoris",ICD10,Condition
-83,83,83.0,I25.709,"Atherosclerosis of coronary artery bypass graft(s), unspecified, with unspecified angina pectoris",ICD10,Condition
-84,84,84.0,I25.710,Atherosclerosis of autologous vein coronary artery bypass graft(s) with unstable angina pectoris,ICD10,Condition
-85,85,85.0,I25.711,Atherosclerosis of autologous vein coronary artery bypass graft(s) with angina pectoris with documented spasm,ICD10,Condition
-86,86,86.0,I25.718,Atherosclerosis of autologous vein coronary artery bypass graft(s) with other forms of angina pectoris,ICD10,Condition
-87,87,87.0,I25.719,Atherosclerosis of autologous vein coronary artery bypass graft(s) with unspecified angina pectoris,ICD10,Condition
-88,88,88.0,I25.720,Atherosclerosis of autologous artery coronary artery bypass graft(s) with unstable angina pectoris,ICD10,Condition
-89,89,89.0,I25.721,Athscl autologous artery CABG w ang pctrs w documented spasm,ICD10,Condition
-90,90,90.0,I25.728,Atherosclerosis of autologous artery coronary artery bypass graft(s) with other forms of angina pectoris,ICD10,Condition
-91,91,91.0,I25.729,Atherosclerosis of autologous artery coronary artery bypass graft(s) with unspecified angina pectoris,ICD10,Condition
-92,92,92.0,I25.730,Atherosclerosis of nonautologous biological coronary artery bypass graft(s) with unstable angina pectoris,ICD10,Condition
-93,93,93.0,I25.731,Athscl of nonautologous biological CABG w ang pctrs w documented spasm,ICD10,Condition
-94,94,94.0,I25.738,Atherosclerosis of nonautologous biological coronary artery bypass graft(s) with other forms of angina pectoris,ICD10,Condition
-95,95,95.0,I25.739,Atherosclerosis of nonautologous biological coronary artery bypass graft(s) with unspecified angina pectoris,ICD10,Condition
-96,96,96.0,I25.750,Atherosclerosis of native coronary artery of transplanted heart with unstable angina,ICD10,Condition
-97,97,97.0,I25.760,Atherosclerosis of bypass graft of coronary artery of transplanted heart with unstable angina,ICD10,Condition
-98,98,98.0,I25.790,Atherosclerosis of other coronary artery bypass graft(s) with unstable angina pectoris,ICD10,Condition
-99,99,99.0,I25.791,Atherosclerosis of other coronary artery bypass graft(s) with angina pectoris with documented spasm,ICD10,Condition
-100,100,100.0,I25.798,Atherosclerosis of other coronary artery bypass graft(s) with other forms of angina pectoris,ICD10,Condition
-101,101,101.0,I25.799,Atherosclerosis of other coronary artery bypass graft(s) with unspecified angina pectoris,ICD10,Condition
-102,102,102.0,I25.8,Other forms of chronic ischemic heart disease,ICD10,Condition
-103,103,103.0,I25.810,Atherosclerosis of coronary artery bypass graft(s) without angina pectoris,ICD10,Condition
-104,104,104.0,I25.82,Chronic total occlusion of coronary artery,ICD10,Condition
-105,105,105.0,I25.83,Coronary atherosclerosis due to lipid rich plaque,ICD10,Condition
-106,106,106.0,I25.84,Coronary atherosclerosis due to calcified coronary lesion,ICD10,Condition
-107,107,107.0,I25.89,Other forms of chronic ischemic heart disease,ICD10,Condition
-108,108,108.0,I25.9,"Chronic ischemic heart disease, unspecified",ICD10,Condition
-109,109,109.0,Z95.1,Presence of aortocoronary bypass graft,ICD10,Condition
-110,110,110.0,Z95.5,Presence of coronary angioplasty implant and graft,ICD10,Condition
-111,111,111.0,Z98.6,Angioplasty status,ICD10,Condition
-112,112,112.0,Z98.61,Coronary angioplasty status,ICD10,Condition
-113,113,113.0,021008C,"Bypass Coronary Artery, One Artery from Thoracic Artery with Zooplastic Tissue, Open Approach",ICD10,Procedure
-114,114,114.0,021008W,"Bypass Coronary Artery, One Artery from Aorta with Zooplastic Tissue, Open Approach",ICD10,Procedure
-115,115,115.0,0210088,"Bypass Coronary Artery, One Artery from Right Internal Mammary with Zooplastic Tissue, Open Approach",ICD10,Procedure
-116,116,116.0,0210089,"Bypass Coronary Artery, One Artery from Left Internal Mammary with Zooplastic Tissue, Open Approach",ICD10,Procedure
-117,117,117.0,0210093,"Bypass Coronary Artery, One Artery from Coronary Artery with Autologous Venous Tissue, Open Approach",ICD10,Procedure
-118,118,118.0,0210098,"Bypass Coronary Artery, One Artery from Right Internal Mammary with Autologous Venous Tissue, Open Approach",ICD10,Procedure
-119,119,119.0,0210099,"Bypass Coronary Artery, One Artery from Left Internal Mammary with Autologous Venous Tissue, Open Approach",ICD10,Procedure
-120,120,120.0,021009C,"Bypass Coronary Artery, One Artery from Thoracic Artery with Autologous Venous Tissue, Open Approach",ICD10,Procedure
-121,121,121.0,021009F,"Bypass Coronary Artery, One Artery from Abdominal Artery with Autologous Venous Tissue, Open Approach",ICD10,Procedure
-122,122,122.0,021009W,"Bypass Coronary Artery, One Artery from Aorta with Autologous Venous Tissue, Open Approach",ICD10,Procedure
-123,123,123.0,02100A3,"Bypass Coronary Artery, One Artery from Coronary Artery with Autologous Arterial Tissue, Open Approach",ICD10,Procedure
-124,124,124.0,02100A8,"Bypass Coronary Artery, One Artery from Right Internal Mammary with Autologous Arterial Tissue, Open Approach",ICD10,Procedure
-125,125,125.0,02100A9,"Bypass Coronary Artery, One Artery from Left Internal Mammary with Autologous Arterial Tissue, Open Approach",ICD10,Procedure
-126,126,126.0,02100AC,"Bypass Coronary Artery, One Artery from Thoracic Artery with Autologous Arterial Tissue, Open Approach",ICD10,Procedure
-127,127,127.0,02100AF,"Bypass Coronary Artery, One Artery from Abdominal Artery with Autologous Arterial Tissue, Open Approach",ICD10,Procedure
-128,128,128.0,02100AW,"Bypass Coronary Artery, One Artery from Aorta with Autologous Arterial Tissue, Open Approach",ICD10,Procedure
-129,129,129.0,02100J3,"Bypass Coronary Artery, One Artery from Coronary Artery with Synthetic Substitute, Open Approach",ICD10,Procedure
-130,130,130.0,02100J8,"Bypass Coronary Artery, One Artery from Right Internal Mammary with Synthetic Substitute, Open Approach",ICD10,Procedure
-131,131,131.0,02100J9,"Bypass Coronary Artery, One Artery from Left Internal Mammary with Synthetic Substitute, Open Approach",ICD10,Procedure
-132,132,132.0,02100JC,"Bypass Coronary Artery, One Artery from Thoracic Artery with Synthetic Substitute, Open Approach",ICD10,Procedure
-133,133,133.0,02100JF,"Bypass Coronary Artery, One Artery from Abdominal Artery with Synthetic Substitute, Open Approach",ICD10,Procedure
-134,134,134.0,02100JW,"Bypass Coronary Artery, One Artery from Aorta with Synthetic Substitute, Open Approach",ICD10,Procedure
-135,135,135.0,02100K3,"Bypass Coronary Artery, One Artery from Coronary Artery with Nonautologous Tissue Substitute, Open Approach",ICD10,Procedure
-136,136,136.0,02100K8,"Bypass Coronary Artery, One Artery from Right Internal Mammary with Nonautologous Tissue Substitute, Open Approach",ICD10,Procedure
-137,137,137.0,02100K9,"Bypass Coronary Artery, One Artery from Left Internal Mammary with Nonautologous Tissue Substitute, Open Approach",ICD10,Procedure
-138,138,138.0,02100KC,"Bypass Coronary Artery, One Artery from Thoracic Artery with Nonautologous Tissue Substitute, Open Approach",ICD10,Procedure
-139,139,139.0,02100KF,"Bypass Coronary Artery, One Artery from Abdominal Artery with Nonautologous Tissue Substitute, Open Approach",ICD10,Procedure
-140,140,140.0,02100KW,"Bypass Coronary Artery, One Artery from Aorta with Nonautologous Tissue Substitute, Open Approach",ICD10,Procedure
-141,141,141.0,02100Z3,"Bypass Coronary Artery, One Artery from Coronary Artery, Open Approach",ICD10,Procedure
-142,142,142.0,02100Z8,"Bypass Coronary Artery, One Artery from Right Internal Mammary, Open Approach",ICD10,Procedure
-143,143,143.0,02100Z9,"Bypass Coronary Artery, One Artery from Left Internal Mammary, Open Approach",ICD10,Procedure
-144,144,144.0,02100ZC,"Bypass Coronary Artery, One Artery from Thoracic Artery, Open Approach",ICD10,Procedure
-145,145,145.0,02100ZF,"Bypass Coronary Artery, One Artery from Abdominal Artery, Open Approach",ICD10,Procedure
-146,146,146.0,0210488,"Bypass Coronary Artery, One Artery from Right Internal Mammary with Zooplastic Tissue, Percutaneous Endoscopic Approach",ICD10,Procedure
-147,147,147.0,021048C,"Bypass Coronary Artery, One Artery from Thoracic Artery with Zooplastic Tissue, Percutaneous Endoscopic Approach",ICD10,Procedure
-148,148,148.0,021048W,"Bypass Coronary Artery, One Artery from Aorta with Zooplastic Tissue, Percutaneous Endoscopic Approach",ICD10,Procedure
-149,149,149.0,0210489,"Bypass Coronary Artery, One Artery from Left Internal Mammary with Zooplastic Tissue, Percutaneous Endoscopic Approach",ICD10,Procedure
-150,150,150.0,0210493,"Bypass Coronary Artery, One Artery from Coronary Artery with Autologous Venous Tissue, Percutaneous Endoscopic Approach",ICD10,Procedure
-151,151,151.0,0210498,"Bypass Coronary Artery, One Artery from Right Internal Mammary with Autologous Venous Tissue, Percutaneous Endoscopic Approach",ICD10,Procedure
-152,152,152.0,0210499,"Bypass Coronary Artery, One Artery from Left Internal Mammary with Autologous Venous Tissue, Percutaneous Endoscopic Approach",ICD10,Procedure
-153,153,153.0,021049C,"Bypass Coronary Artery, One Artery from Thoracic Artery with Autologous Venous Tissue, Percutaneous Endoscopic Approach",ICD10,Procedure
-154,154,154.0,021049F,"Bypass Coronary Artery, One Artery from Abdominal Artery with Autologous Venous Tissue, Percutaneous Endoscopic Approach",ICD10,Procedure
-155,155,155.0,021049W,"Bypass Coronary Artery, One Artery from Aorta with Autologous Venous Tissue, Percutaneous Endoscopic Approach",ICD10,Procedure
-156,156,156.0,02104A3,"Bypass Coronary Artery, One Artery from Coronary Artery with Autologous Arterial Tissue, Percutaneous Endoscopic Approach",ICD10,Procedure
-157,157,157.0,02104A8,"Bypass Coronary Artery, One Artery from Right Internal Mammary with Autologous Arterial Tissue, Percutaneous Endoscopic Approach",ICD10,Procedure
-158,158,158.0,02104A9,"Bypass Coronary Artery, One Artery from Left Internal Mammary with Autologous Arterial Tissue, Percutaneous Endoscopic Approach",ICD10,Procedure
-159,159,159.0,02104AC,"Bypass Coronary Artery, One Artery from Thoracic Artery with Autologous Arterial Tissue, Percutaneous Endoscopic Approach",ICD10,Procedure
-160,160,160.0,02104AF,"Bypass Coronary Artery, One Artery from Abdominal Artery with Autologous Arterial Tissue, Percutaneous Endoscopic Approach",ICD10,Procedure
-161,161,161.0,02104AW,"Bypass Coronary Artery, One Artery from Aorta with Autologous Arterial Tissue, Percutaneous Endoscopic Approach",ICD10,Procedure
-162,162,162.0,02104J3,"Bypass Coronary Artery, One Artery from Coronary Artery with Synthetic Substitute, Percutaneous Endoscopic Approach",ICD10,Procedure
-163,163,163.0,02104J8,"Bypass Coronary Artery, One Artery from Right Internal Mammary with Synthetic Substitute, Percutaneous Endoscopic Approach",ICD10,Procedure
-164,164,164.0,02104J9,"Bypass Coronary Artery, One Artery from Left Internal Mammary with Synthetic Substitute, Percutaneous Endoscopic Approach",ICD10,Procedure
-165,165,165.0,02104JC,"Bypass Coronary Artery, One Artery from Thoracic Artery with Synthetic Substitute, Percutaneous Endoscopic Approach",ICD10,Procedure
-166,166,166.0,02104JF,"Bypass Coronary Artery, One Artery from Abdominal Artery with Synthetic Substitute, Percutaneous Endoscopic Approach",ICD10,Procedure
-167,167,167.0,02104JW,"Bypass Coronary Artery, One Artery from Aorta with Synthetic Substitute, Percutaneous Endoscopic Approach",ICD10,Procedure
-168,168,168.0,02104K3,"Bypass Coronary Artery, One Artery from Coronary Artery with Nonautologous Tissue Substitute, Percutaneous Endoscopic Approach",ICD10,Procedure
-169,169,169.0,02104K8,"Bypass Coronary Artery, One Artery from Right Internal Mammary with Nonautologous Tissue Substitute, Percutaneous Endoscopic Approach",ICD10,Procedure
-170,170,170.0,02104K9,"Bypass Coronary Artery, One Artery from Left Internal Mammary with Nonautologous Tissue Substitute, Percutaneous Endoscopic Approach",ICD10,Procedure
-171,171,171.0,02104KC,"Bypass Coronary Artery, One Artery from Thoracic Artery with Nonautologous Tissue Substitute, Percutaneous Endoscopic Approach",ICD10,Procedure
-172,172,172.0,02104KF,"Bypass Coronary Artery, One Artery from Abdominal Artery with Nonautologous Tissue Substitute, Percutaneous Endoscopic Approach",ICD10,Procedure
-173,173,173.0,02104KW,"Bypass Coronary Artery, One Artery from Aorta with Nonautologous Tissue Substitute, Percutaneous Endoscopic Approach",ICD10,Procedure
-174,174,174.0,02104Z3,"Bypass Coronary Artery, One Artery from Coronary Artery, Percutaneous Endoscopic Approach",ICD10,Procedure
-175,175,175.0,02104Z8,"Bypass Coronary Artery, One Artery from Right Internal Mammary, Percutaneous Endoscopic Approach",ICD10,Procedure
-176,176,176.0,02104Z9,"Bypass Coronary Artery, One Artery from Left Internal Mammary, Percutaneous Endoscopic Approach",ICD10,Procedure
-177,177,177.0,02104ZC,"Bypass Coronary Artery, One Artery from Thoracic Artery, Percutaneous Endoscopic Approach",ICD10,Procedure
-178,178,178.0,02104ZF,"Bypass Coronary Artery, One Artery from Abdominal Artery, Percutaneous Endoscopic Approach",ICD10,Procedure
-179,179,179.0,021108W,"Bypass Coronary Artery, Two Arteries from Aorta with Zooplastic Tissue, Open Approach",ICD10,Procedure
-180,180,180.0,211098,"Bypass Coronary Artery, Two Arteries from Right Internal Mammary with Autologous Venous Tissue, Open Approach",ICD10,Procedure
-181,181,181.0,211099,"Bypass Coronary Artery, Two Arteries from Left Internal Mammary with Autologous Venous Tissue, Open Approach",ICD10,Procedure
-182,182,182.0,021109C,"Bypass Coronary Artery, Two Arteries from Thoracic Artery with Autologous Venous Tissue, Open Approach",ICD10,Procedure
-183,183,183.0,021109W,"Bypass Coronary Artery, Two Arteries from Aorta with Autologous Venous Tissue, Open Approach",ICD10,Procedure
-184,184,184.0,02110A8,"Bypass Coronary Artery, Two Arteries from Right Internal Mammary with Autologous Arterial Tissue, Open Approach",ICD10,Procedure
-185,185,185.0,02110A9,"Bypass Coronary Artery, Two Arteries from Left Internal Mammary with Autologous Arterial Tissue, Open Approach",ICD10,Procedure
-186,186,186.0,02110AC,"Bypass Coronary Artery, Two Arteries from Thoracic Artery with Autologous Arterial Tissue, Open Approach",ICD10,Procedure
-187,187,187.0,02110AW,"Bypass Coronary Artery, Two Arteries from Aorta with Autologous Arterial Tissue, Open Approach",ICD10,Procedure
-188,188,188.0,02110J8,"Bypass Coronary Artery, Two Arteries from Right Internal Mammary with Synthetic Substitute, Open Approach",ICD10,Procedure
-189,189,189.0,02110J9,"Bypass Coronary Artery, Two Arteries from Left Internal Mammary with Synthetic Substitute, Open Approach",ICD10,Procedure
-190,190,190.0,02110JC,"Bypass Coronary Artery, Two Arteries from Thoracic Artery with Synthetic Substitute, Open Approach",ICD10,Procedure
-191,191,191.0,02110JW,"Bypass Coronary Artery, Two Arteries from Aorta with Synthetic Substitute, Open Approach",ICD10,Procedure
-192,192,192.0,02110K8,"Bypass Coronary Artery, Two Arteries from Right Internal Mammary with Nonautologous Tissue Substitute, Open Approach",ICD10,Procedure
-193,193,193.0,02110K9,"Bypass Coronary Artery, Two Arteries from Left Internal Mammary with Nonautologous Tissue Substitute, Open Approach",ICD10,Procedure
-194,194,194.0,02110KC,"Bypass Coronary Artery, Two Arteries from Thoracic Artery with Nonautologous Tissue Substitute, Open Approach",ICD10,Procedure
-195,195,195.0,02110KW,"Bypass Coronary Artery, Two Arteries from Aorta with Nonautologous Tissue Substitute, Open Approach",ICD10,Procedure
-196,196,196.0,02110Z8,"Bypass Coronary Artery, Two Arteries from Right Internal Mammary, Open Approach",ICD10,Procedure
-197,197,197.0,02110Z9,"Bypass Coronary Artery, Two Arteries from Left Internal Mammary, Open Approach",ICD10,Procedure
-198,198,198.0,02110ZC,"Bypass Coronary Artery, Two Arteries from Thoracic Artery, Open Approach",ICD10,Procedure
-199,199,199.0,021148W,"Bypass Coronary Artery, Two Arteries from Aorta with Zooplastic Tissue, Percutaneous Endoscopic Approach",ICD10,Procedure
-200,200,200.0,211498,"Bypass Coronary Artery, Two Arteries from Right Internal Mammary with Autologous Venous Tissue, Percutaneous Endoscopic Approach",ICD10,Procedure
-201,201,201.0,211499,"Bypass Coronary Artery, Two Arteries from Left Internal Mammary with Autologous Venous Tissue, Percutaneous Endoscopic Approach",ICD10,Procedure
-202,202,202.0,021149C,"Bypass Coronary Artery, Two Arteries from Thoracic Artery with Autologous Venous Tissue, Percutaneous Endoscopic Approach",ICD10,Procedure
-203,203,203.0,021149W,"Bypass Coronary Artery, Two Arteries from Aorta with Autologous Venous Tissue, Percutaneous Endoscopic Approach",ICD10,Procedure
-204,204,204.0,02114A8,"Bypass Coronary Artery, Two Arteries from Right Internal Mammary with Autologous Arterial Tissue, Percutaneous Endoscopic Approach",ICD10,Procedure
-205,205,205.0,02114A9,"Bypass Coronary Artery, Two Arteries from Left Internal Mammary with Autologous Arterial Tissue, Percutaneous Endoscopic Approach",ICD10,Procedure
-206,206,206.0,02114AC,"Bypass Coronary Artery, Two Arteries from Thoracic Artery with Autologous Arterial Tissue, Percutaneous Endoscopic Approach",ICD10,Procedure
-207,207,207.0,02114AW,"Bypass Coronary Artery, Two Arteries from Aorta with Autologous Arterial Tissue, Percutaneous Endoscopic Approach",ICD10,Procedure
-208,208,208.0,02114J8,"Bypass Coronary Artery, Two Arteries from Right Internal Mammary with Synthetic Substitute, Percutaneous Endoscopic Approach",ICD10,Procedure
-209,209,209.0,02114J9,"Bypass Coronary Artery, Two Arteries from Left Internal Mammary with Synthetic Substitute, Percutaneous Endoscopic Approach",ICD10,Procedure
-210,210,210.0,02114JC,"Bypass Coronary Artery, Two Arteries from Thoracic Artery with Synthetic Substitute, Percutaneous Endoscopic Approach",ICD10,Procedure
-211,211,211.0,02114JW,"Bypass Coronary Artery, Two Arteries from Aorta with Synthetic Substitute, Percutaneous Endoscopic Approach",ICD10,Procedure
-212,212,212.0,02114K8,"Bypass Coronary Artery, Two Arteries from Right Internal Mammary with Nonautologous Tissue Substitute, Percutaneous Endoscopic Approach",ICD10,Procedure
-213,213,213.0,02114K9,"Bypass Coronary Artery, Two Arteries from Left Internal Mammary with Nonautologous Tissue Substitute, Percutaneous Endoscopic Approach",ICD10,Procedure
-214,214,214.0,02114KC,"Bypass Coronary Artery, Two Arteries from Thoracic Artery with Nonautologous Tissue Substitute, Percutaneous Endoscopic Approach",ICD10,Procedure
-215,215,215.0,02114KW,"Bypass Coronary Artery, Two Arteries from Aorta with Nonautologous Tissue Substitute, Percutaneous Endoscopic Approach",ICD10,Procedure
-216,216,216.0,02114Z8,"Bypass Coronary Artery, Two Arteries from Right Internal Mammary, Percutaneous Endoscopic Approach",ICD10,Procedure
-217,217,217.0,02114Z9,"Bypass Coronary Artery, Two Arteries from Left Internal Mammary, Percutaneous Endoscopic Approach",ICD10,Procedure
-218,218,218.0,02114ZC,"Bypass Coronary Artery, Two Arteries from Thoracic Artery, Percutaneous Endoscopic Approach",ICD10,Procedure
-219,219,219.0,021209C,"Bypass Coronary Artery, Three Arteries from Thoracic Artery with Autologous Venous Tissue, Open Approach",ICD10,Procedure
-220,220,220.0,021209W,"Bypass Coronary Artery, Three Arteries from Aorta with Autologous Venous Tissue, Open Approach",ICD10,Procedure
-221,221,221.0,02120AC,"Bypass Coronary Artery, Three Arteries from Thoracic Artery with Autologous Arterial Tissue, Open Approach",ICD10,Procedure
-222,222,222.0,02120AW,"Bypass Coronary Artery, Three Arteries from Aorta with Autologous Arterial Tissue, Open Approach",ICD10,Procedure
-223,223,223.0,02120JC,"Bypass Coronary Artery, Three Arteries from Thoracic Artery with Synthetic Substitute, Open Approach",ICD10,Procedure
-224,224,224.0,02120JW,"Bypass Coronary Artery, Three Arteries from Aorta with Synthetic Substitute, Open Approach",ICD10,Procedure
-225,225,225.0,02120KC,"Bypass Coronary Artery, Three Arteries from Thoracic Artery with Nonautologous Tissue Substitute, Open Approach",ICD10,Procedure
-226,226,226.0,02120KW,"Bypass Coronary Artery, Three Arteries from Aorta with Nonautologous Tissue Substitute, Open Approach",ICD10,Procedure
-227,227,227.0,02120ZC,"Bypass Coronary Artery, Three Arteries from Thoracic Artery, Open Approach",ICD10,Procedure
-228,228,228.0,021249C,"Bypass Coronary Artery, Three Arteries from Thoracic Artery with Autologous Venous Tissue, Percutaneous Endoscopic Approach",ICD10,Procedure
-229,229,229.0,021249W,"Bypass Coronary Artery, Three Arteries from Aorta with Autologous Venous Tissue, Percutaneous Endoscopic Approach",ICD10,Procedure
-230,230,230.0,02124AC,"Bypass Coronary Artery, Three Arteries from Thoracic Artery with Autologous Arterial Tissue, Percutaneous Endoscopic Approach",ICD10,Procedure
-231,231,231.0,02124AW,"Bypass Coronary Artery, Three Arteries from Aorta with Autologous Arterial Tissue, Percutaneous Endoscopic Approach",ICD10,Procedure
-232,232,232.0,02124JC,"Bypass Coronary Artery, Three Arteries from Thoracic Artery with Synthetic Substitute, Percutaneous Endoscopic Approach",ICD10,Procedure
-233,233,233.0,02124JW,"Bypass Coronary Artery, Three Arteries from Aorta with Synthetic Substitute, Percutaneous Endoscopic Approach",ICD10,Procedure
-234,234,234.0,02124KC,"Bypass Coronary Artery, Three Arteries from Thoracic Artery with Nonautologous Tissue Substitute, Percutaneous Endoscopic Approach",ICD10,Procedure
-235,235,235.0,02124KW,"Bypass Coronary Artery, Three Arteries from Aorta with Nonautologous Tissue Substitute, Percutaneous Endoscopic Approach",ICD10,Procedure
-236,236,236.0,02124ZC,"Bypass Coronary Artery, Three Arteries from Thoracic Artery, Percutaneous Endoscopic Approach",ICD10,Procedure
-237,237,237.0,021308W,"Bypass Coronary Artery, Four or More Arteries from Aorta with Zooplastic Tissue, Open Approach",ICD10,Procedure
-238,238,238.0,021309C,"Bypass Coronary Artery, Four or More Arteries from Thoracic Artery with Autologous Venous Tissue, Open Approach",ICD10,Procedure
-239,239,239.0,021309W,"Bypass Coronary Artery, Four or More Arteries from Aorta with Autologous Venous Tissue, Open Approach",ICD10,Procedure
-240,240,240.0,02130AC,"Bypass Coronary Artery, Four or More Arteries from Thoracic Artery with Autologous Arterial Tissue, Open Approach",ICD10,Procedure
-241,241,241.0,02130AW,"Bypass Coronary Artery, Four or More Arteries from Aorta with Autologous Arterial Tissue, Open Approach",ICD10,Procedure
-242,242,242.0,02130JC,"Bypass Coronary Artery, Four or More Arteries from Thoracic Artery with Synthetic Substitute, Open Approach",ICD10,Procedure
-243,243,243.0,02130JW,"Bypass Coronary Artery, Four or More Arteries from Aorta with Synthetic Substitute, Open Approach",ICD10,Procedure
-244,244,244.0,02130KC,"Bypass Coronary Artery, Four or More Arteries from Thoracic Artery with Nonautologous Tissue Substitute, Open Approach",ICD10,Procedure
-245,245,245.0,02130KW,"Bypass Coronary Artery, Four or More Arteries from Aorta with Nonautologous Tissue Substitute, Open Approach",ICD10,Procedure
-246,246,246.0,02130ZC,"Bypass Coronary Artery, Four or More Arteries from Thoracic Artery, Open Approach",ICD10,Procedure
-247,247,247.0,021349C,"Bypass Coronary Artery, Four or More Arteries from Thoracic Artery with Autologous Venous Tissue, Percutaneous Endoscopic Approach",ICD10,Procedure
-248,248,248.0,021349W,"Bypass Coronary Artery, Four or More Arteries from Aorta with Autologous Venous Tissue, Percutaneous Endoscopic Approach",ICD10,Procedure
-249,249,249.0,02134AC,"Bypass Coronary Artery, Four or More Arteries from Thoracic Artery with Autologous Arterial Tissue, Percutaneous Endoscopic Approach",ICD10,Procedure
-250,250,250.0,02134AW,"Bypass Coronary Artery, Four or More Arteries from Aorta with Autologous Arterial Tissue, Percutaneous Endoscopic Approach",ICD10,Procedure
-251,251,251.0,02134JC,"Bypass Coronary Artery, Four or More Arteries from Thoracic Artery with Synthetic Substitute, Percutaneous Endoscopic Approach",ICD10,Procedure
-252,252,252.0,02134JW,"Bypass Coronary Artery, Four or More Arteries from Aorta with Synthetic Substitute, Percutaneous Endoscopic Approach",ICD10,Procedure
-253,253,253.0,02134KC,"Bypass Coronary Artery, Four or More Arteries from Thoracic Artery with Nonautologous Tissue Substitute, Percutaneous Endoscopic Approach",ICD10,Procedure
-254,254,254.0,02134KW,"Bypass Coronary Artery, Four or More Arteries from Aorta with Nonautologous Tissue Substitute, Percutaneous Endoscopic Approach",ICD10,Procedure
-255,255,255.0,02134ZC,"Bypass Coronary Artery, Four or More Arteries from Thoracic Artery, Percutaneous Endoscopic Approach",ICD10,Procedure
-256,256,256.0,0270xxx,"Dilation of Coronary Artery, One Artery",ICD10,Procedure
-257,257,257.0,02700ZZ,"Dilation of Coronary Artery, One Artery, Open Approach",ICD10,Procedure
-258,258,258.0,02703ZZ,"Dilation of Coronary Artery, One Artery, Percutaneous Approach.",ICD10,Procedure
-259,259,259.0,02704ZZ,"Dilation of Coronary Artery, One Artery, Percutaneous Endoscopic Approach",ICD10,Procedure
-260,260,260.0,0271xxx,"Dilation of Coronary Artery, Two Arteries",ICD10,Procedure
-261,261,261.0,02710ZZ,"Dilation of Coronary Artery, Two Arteries, Open Approach",ICD10,Procedure
-262,262,262.0,02713ZZ,"Dilation of Coronary Artery, Two Arteries, Percutaneous Approach",ICD10,Procedure
-263,263,263.0,02714ZZ,"Dilation of Coronary Artery, Two Arteries, Percutaneous Endoscopic Approach",ICD10,Procedure
-264,264,264.0,0272xxx,"Dilation of Coronary Artery, Three Arteries",ICD10,Procedure
-265,265,265.0,02720ZZ,"Dilation of Coronary Artery, Three Arteries, Open Approach",ICD10,Procedure
-266,266,266.0,02723ZZ,"Dilation of Coronary Artery, Three Arteries, Percutaneous Approach",ICD10,Procedure
-267,267,267.0,02724ZZ,"Dilation of Coronary Artery, Three Arteries, Percutaneous Endoscopic Approach",ICD10,Procedure
-268,268,268.0,0273xxx,"Dilation of Coronary Artery, Four or More Arteries",ICD10,Procedure
-269,269,269.0,02730ZZ,"Dilation of Coronary Artery, Four or More Arteries, Open Approach",ICD10,Procedure
-270,270,270.0,02733ZZ,"Dilation of Coronary Artery, Four or More Arteries, Percutaneous Approach",ICD10,Procedure
-271,271,271.0,02734ZZ,"Dilation of Coronary Artery, Four or More Arteries, Percutaneous Endoscopic Approach",ICD10,Procedure
-272,272,272.0,02C0xxx,Extirpation of Matter from Coronary Artery,ICD10,Procedure
-273,273,273.0,02C00Z6,"Extirpation of Matter from Coronary Artery, One Artery, Bifurcation, Open Approach",ICD10,Procedure
-274,274,274.0,02C00ZZ,"Extirpation of Matter from Coronary Artery, One Artery, Open Approach",ICD10,Procedure
-275,275,275.0,02C03Z6,"Extirpation of Matter from Coronary Artery, One Artery, Bifurcation, Percutaneous Approach",ICD10,Procedure
-276,276,276.0,02C03Z7,"Extirpation of Matter from Coronary Artery, One Artery, Orbital Atherectomy Technique, Percutaneous Approach",ICD10,Procedure
-277,277,277.0,02C03ZZ,"Extirpation of Matter from Coronary Artery, One Artery, Percutaneous Approach",ICD10,Procedure
-278,278,278.0,02C04Z6,"Extirpation of Matter from Coronary Artery, One Artery, Bifurcation, Percutaneous Endoscopic Approach",ICD10,Procedure
-279,279,279.0,02C04ZZ,"Extirpation of Matter from Coronary Artery, One Artery, Percutaneous Endoscopic Approach",ICD10,Procedure
-280,280,280.0,02C1xxx,"Extirpation of Matter from Coronary Artery, Two Arteries",ICD10,Procedure
-281,281,281.0,02C10Z6,"Extirpation of Matter from Coronary Artery, Two Artery, Bifurcation, Open Approach",ICD10,Procedure
-282,282,282.0,02C10ZZ,"Extirpation of Matter from Coronary Artery, Two Arteries, Open Approach",ICD10,Procedure
-283,283,283.0,02C13Z6,"Extirpation of Matter from Coronary Artery, Two Arteries, Bifurcation, Percutaneous Approach",ICD10,Procedure
-284,284,284.0,02C13Z7,"Extirpation of Matter from Coronary Artery, Two Arteries, Orbital Atherectomy Technique, Percutaneous Approach",ICD10,Procedure
-285,285,285.0,02C13ZZ,"Extirpation of Matter from Coronary Artery, Two Arteries, Percutaneous Approach",ICD10,Procedure
-286,286,286.0,02C14Z6,"Extirpation of Matter from Coronary Artery, Two Artery, Bifurcation, Percutaneous Endoscopic Approach",ICD10,Procedure
-287,287,287.0,02C14ZZ,"Extirpation of Matter from Coronary Artery, Two Arteries, Percutaneous Endoscopic Approach",ICD10,Procedure
-288,288,288.0,02C2xxx,"Extirpation of Matter from Coronary Artery, Three Arteries",ICD10,Procedure
-289,289,289.0,02C20Z6,"Extirpation of Matter from Coronary Artery, Three Arteries, Bifurcation, Open Approach",ICD10,Procedure
-290,290,290.0,02C20ZZ,"Extirpation of Matter from Coronary Artery, Three Arteries, Open Approach",ICD10,Procedure
-291,291,291.0,02C23Z6,"Extirpation of Matter from Coronary Artery, Three Artery, Bifurcation, Open Approach",ICD10,Procedure
-292,292,292.0,02C23Z7,"Extirpation of Matter from Coronary Artery, Three Arteries, Open Approach",ICD10,Procedure
-293,293,293.0,02C23ZZ,"Extirpation of Matter from Coronary Artery, Three Arteries, Percutaneous Approach",ICD10,Procedure
-294,294,294.0,02C24Z6,"Extirpation of Matter from Coronary Artery, Three Arteries, Bifurcation, Percutaneous Endoscopic Approach",ICD10,Procedure
-295,295,295.0,02C24ZZ,"Extirpation of Matter from Coronary Artery, Three Arteries, Percutaneous Endoscopic Approach",ICD10,Procedure
-296,296,296.0,02C3xxx,"Extirpation of Matter from Coronary Artery, Four or More Arteries",ICD10,Procedure
-297,297,297.0,02C30Z6,"Extirpation of Matter from Coronary Artery, Four or More Arteries, Bifurcation, Open Approach",ICD10,Procedure
-298,298,298.0,02C30ZZ,"Extirpation of Matter from Coronary Artery, Four or More Arteries, Open Approach",ICD10,Procedure
-299,299,299.0,02C33Z6,"Extirpation of Matter from Coronary Artery, Four or More Arteries, Bifurcation, Open Approach",ICD10,Procedure
-300,300,300.0,02C33Z7,"Extirpation of Matter from Coronary Artery, Four or More Arteries, Percutaneous Endoscopic Approach",ICD10,Procedure
-301,301,301.0,02C33ZZ,"Extirpation of Matter from Coronary Artery, Four or More Arteries, Percutaneous Approach",ICD10,Procedure
-302,302,302.0,02C34Z6,"Extirpation of Matter from Coronary Artery, Four or More Arteries, Bifurcation, Percutaneous Endoscopic Approach",ICD10,Procedure
-303,303,303.0,02C34ZZ,"Extirpation of Matter from Coronary Artery, Four or More Arteries, Percutaneous Endoscopic Approach",ICD10,Procedure
-304,304,304.0,3E07017,"Introduction of Other Thrombolytic into Coronary Artery, Open Approach",ICD10,Procedure
-305,305,305.0,3E070PZ,"Introduction of Platelet Inhibitor into Coronary Artery, Open Approach",ICD10,Procedure
-306,306,306.0,3E07317,"Introduction of Other Thrombolytic into Coronary Artery, Percutaneous Approach",ICD10,Procedure
-307,307,307.0,3E073PZ,"Introduction of Platelet Inhibitor into Coronary Artery, Percutaneous Approach",ICD10,Procedure
-308,308,308.0,33510,"Coronary artery bypass, vein only; single coronary venous graft",CPT,Procedure
-309,309,309.0,33511,"Coronary artery bypass, vein only; 2 coronary venous grafts",CPT,Procedure
-310,310,310.0,33512,"Coronary artery bypass, vein only; 3 coronary venous grafts",CPT,Procedure
-311,311,311.0,33513,"Coronary artery bypass, vein only; 4 coronary venous grafts",CPT,Procedure
-312,312,312.0,33514,"Coronary artery bypass, vein only; 5 coronary venous grafts",CPT,Procedure
-313,313,313.0,33516,"Coronary artery bypass, vein only; 6 or more coronary venous grafts",CPT,Procedure
-314,314,314.0,33517,"Coronary artery bypass, using venous graft(s) and arterial graft(s); single vein graft (List separately in addition to code for primary procedure)",CPT,Procedure
-315,315,315.0,33518,"Coronary artery bypass, using venous graft(s) and arterial graft(s); 2 venous grafts (List separately in addition to code for primary procedure)",CPT,Procedure
-316,316,316.0,33519,"Coronary artery bypass, using venous graft(s) and arterial graft(s); 3 venous grafts (List separately in addition to code for primary procedure)",CPT,Procedure
-317,317,317.0,33521,"Coronary artery bypass, using venous graft(s) and arterial graft(s); 4 venous grafts (List separately in addition to code for primary procedure)",CPT,Procedure
-318,318,318.0,33522,"Coronary artery bypass, using venous graft(s) and arterial graft(s); 5 venous grafts (List separately in addition to code for primary procedure)",CPT,Procedure
-319,319,319.0,33523,"Coronary artery bypass, using venous graft(s) and arterial graft(s); 6 or more venous grafts (List separately in addition to code for primary procedure)",CPT,Procedure
-320,320,320.0,33533,"Coronary artery bypass, using arterial graft(s); single arterial graft",CPT,Procedure
-321,321,321.0,33534,"Coronary artery bypass, using arterial graft(s); 2 coronary arterial grafts",CPT,Procedure
-322,322,322.0,33535,"Coronary artery bypass, using arterial graft(s); 3 coronary arterial grafts",CPT,Procedure
-323,323,323.0,33536,"Coronary artery bypass, using arterial graft(s); 4 or more coronary arterial grafts",CPT,Procedure
-324,324,324.0,33545,Arterial Grafting for Coronary Artery Bypass,CPT,Procedure
-325,325,325.0,33572,Coronary Endarterectomy Procedures,CPT,Procedure
-326,326,326.0,35500,Vein Bypass Graft Procedures,CPT,Procedure
-327,327,327.0,92920,Percutaneous revascularization services performed for occlusive disease of the coronary vessels,CPT,Procedure
-328,328,328.0,92921,"Percutaneous transluminal coronary angioplasty; each additional branch of a major coronary artery (List
+36.06,Insertion of non-drug-eluting coronary artery stent(s),ICD9,Procedure
+36.07,Insertion of drug-eluting coronary artery stent(s),ICD9,Procedure
+36.09,Other Removal Of Coronary Artery Obstruction,ICD9,Procedure
+36.10,"Aortocoronary Bypass For Heart Revascularization, Not Otherwise Specified",ICD9,Procedure
+36.11,(Aorto)coronary bypass of one coronary artery,ICD9,Procedure
+36.12,Aortocoronary Bypass Of Two Coronary Arteries,ICD9,Procedure
+36.13,Aortocoronary Bypass Of Three Coronary Arteries,ICD9,Procedure
+36.14,Aortocoronary Bypass Of Four Or More Coronary Arteries,ICD9,Procedure
+36.15,Single Internal Mammary-Coronary Artery Bypass,ICD9,Procedure
+36.16,Double Internal Mammary-Coronary Artery Bypass,ICD9,Procedure
+36.17,Abdominal-Coronary Artery Bypass,ICD9,Procedure
+36.19,Other Bypass Anastomosis For Heart Revascularization,ICD9,Procedure
+36.2,CABG surgery,ICD9,Procedure
+I20,Unstable Angina,ICD10,Condition
+I21,Acute myocardial infarction,ICD10,Condition
+I21.0,ST elevation (STEMI) myocardial infarction of anterior wall,ICD10,Condition
+I21.01,ST elevation (STEMI) myocardial infarction involving left main coronary artery,ICD10,Condition
+I21.02,ST elevation (STEMI) myocardial infarction involving left anterior descending coronary artery,ICD10,Condition
+I21.09,ST elevation (STEMI) myocardial infarction involving other coronary artery of anterior wall,ICD10,Condition
+I21.1,ST elevation (STEMI) myocardial infarction of inferior wall,ICD10,Condition
+I21.11,ST elevation (STEMI) myocardial infarction involving right coronary artery,ICD10,Condition
+I21.19,ST elevation (STEMI) myocardial infarction involving other coronary artery of inferior wall,ICD10,Condition
+I21.2,ST elevation (STEMI) myocardial infarction of other sites,ICD10,Condition
+I21.21,ST elevation (STEMI) myocardial infarction involving left circumflex coronary artery,ICD10,Condition
+I21.29,ST elevation (STEMI) myocardial infarction involving other sites,ICD10,Condition
+I21.3,ST elevation (STEMI) myocardial infarction of unspecified site,ICD10,Condition
+I21.4,Non-ST elevation (NSTEMI) myocardial infarction,ICD10,Condition
+I21.9,"Acute myocardial infarction, unspecified",ICD10,Condition
+I21.A,Other type of myocardial infarction,ICD10,Condition
+I21.A1,Myocardial infarction type 2,ICD10,Condition
+I21.A9,Other myocardial infarction type,ICD10,Condition
+I22,Subsequent ST elevation (STEMI) and non-ST elevation (NSTEMI) myocardial infarction,ICD10,Condition
+I22.0,Subsequent ST elevation (STEMI) myocardial infarction of anterior wall,ICD10,Condition
+I22.1,Subsequent ST elevation (STEMI) myocardial infarction of inferior wall,ICD10,Condition
+I22.2,Subsequent non-ST elevation (NSTEMI) myocardial infarction,ICD10,Condition
+I22.8,Subsequent ST elevation (STEMI) myocardial infarction of other sites,ICD10,Condition
+I22.9,Subsequent ST elevation (STEMI) myocardial infarction of unspecified site,ICD10,Condition
+I23,Certain current complications following ST elevation (STEMI) and non-ST elevation (NSTEMI) myocardial infarction (within the 28 day period),ICD10,Condition
+I23.0,Hemopericardium as current complication following acute myocardial infarction,ICD10,Condition
+I23.1,Atrial septal defect as current complication following acute myocardial infarction,ICD10,Condition
+I23.2,Ventricular septal defect as current complication following acute myocardial infarction,ICD10,Condition
+I23.3,Rupture of cardiac wall without hemopericardium as current complication following acute myocardial infarction,ICD10,Condition
+I23.5,Rupture of papillary muscle as current complication following acute myocardial infarction,ICD10,Condition
+I23.6,"Thrombosis of atrium, auricular appendage, and ventricle as current complications following acute myocardial infarction",ICD10,Condition
+I23.7,Postinfarction angina,ICD10,Condition
+I23.8,Other current complications following acute myocardial infarction,ICD10,Condition
+I24,Other acute ischemic heart diseases,ICD10,Condition
+I24.0,Acute coronary thrombosis not resulting in myocardial infarction,ICD10,Condition
+I24.1,Dressler's syndrome,ICD10,Condition
+I24.8,Other forms of acute ischemic heart disease,ICD10,Condition
+I24.9,"Acute ischemic heart disease, unspecified",ICD10,Condition
+I25,Chronic Ischemic Heart Disease,ICD10,Condition
+I25.1,Atherosclerotic heart disease of native coronary artery,ICD10,Condition
+I25.110,Atherosclerotic heart disease of native coronary artery with unstable angina pectoris,ICD10,Condition
+I25.111,Atherosclerotic heart disease of native coronary artery with angina pectoris with documented spasm,ICD10,Condition
+I25.118,Atherosclerotic heart disease of native coronary artery with other forms of angina pectoris,ICD10,Condition
+I25.119,Atherosclerotic heart disease of native coronary artery with unspecified angina pectoris,ICD10,Condition
+I25.2,Old myocardial infarction,ICD10,Condition
+I25.5,Ischemic cardiomyopathy,ICD10,Condition
+I25.6,Silent myocardial ischemia,ICD10,Condition
+I25.700,"Atherosclerosis of coronary artery bypass graft(s), unspecified, with unstable angina pectoris",ICD10,Condition
+I25.701,"Atherosclerosis of coronary artery bypass graft(s), unspecified, with angina pectoris with documented spasm",ICD10,Condition
+I25.708,"Atherosclerosis of coronary artery bypass graft(s), unspecified, with other forms of angina pectoris",ICD10,Condition
+I25.709,"Atherosclerosis of coronary artery bypass graft(s), unspecified, with unspecified angina pectoris",ICD10,Condition
+I25.710,Atherosclerosis of autologous vein coronary artery bypass graft(s) with unstable angina pectoris,ICD10,Condition
+I25.711,Atherosclerosis of autologous vein coronary artery bypass graft(s) with angina pectoris with documented spasm,ICD10,Condition
+I25.718,Atherosclerosis of autologous vein coronary artery bypass graft(s) with other forms of angina pectoris,ICD10,Condition
+I25.719,Atherosclerosis of autologous vein coronary artery bypass graft(s) with unspecified angina pectoris,ICD10,Condition
+I25.720,Atherosclerosis of autologous artery coronary artery bypass graft(s) with unstable angina pectoris,ICD10,Condition
+I25.721,Athscl autologous artery CABG w ang pctrs w documented spasm,ICD10,Condition
+I25.728,Atherosclerosis of autologous artery coronary artery bypass graft(s) with other forms of angina pectoris,ICD10,Condition
+I25.729,Atherosclerosis of autologous artery coronary artery bypass graft(s) with unspecified angina pectoris,ICD10,Condition
+I25.730,Atherosclerosis of nonautologous biological coronary artery bypass graft(s) with unstable angina pectoris,ICD10,Condition
+I25.731,Athscl of nonautologous biological CABG w ang pctrs w documented spasm,ICD10,Condition
+I25.738,Atherosclerosis of nonautologous biological coronary artery bypass graft(s) with other forms of angina pectoris,ICD10,Condition
+I25.739,Atherosclerosis of nonautologous biological coronary artery bypass graft(s) with unspecified angina pectoris,ICD10,Condition
+I25.750,Atherosclerosis of native coronary artery of transplanted heart with unstable angina,ICD10,Condition
+I25.760,Atherosclerosis of bypass graft of coronary artery of transplanted heart with unstable angina,ICD10,Condition
+I25.790,Atherosclerosis of other coronary artery bypass graft(s) with unstable angina pectoris,ICD10,Condition
+I25.791,Atherosclerosis of other coronary artery bypass graft(s) with angina pectoris with documented spasm,ICD10,Condition
+I25.798,Atherosclerosis of other coronary artery bypass graft(s) with other forms of angina pectoris,ICD10,Condition
+I25.799,Atherosclerosis of other coronary artery bypass graft(s) with unspecified angina pectoris,ICD10,Condition
+I25.8,Other forms of chronic ischemic heart disease,ICD10,Condition
+I25.810,Atherosclerosis of coronary artery bypass graft(s) without angina pectoris,ICD10,Condition
+I25.82,Chronic total occlusion of coronary artery,ICD10,Condition
+I25.83,Coronary atherosclerosis due to lipid rich plaque,ICD10,Condition
+I25.84,Coronary atherosclerosis due to calcified coronary lesion,ICD10,Condition
+I25.89,Other forms of chronic ischemic heart disease,ICD10,Condition
+I25.9,"Chronic ischemic heart disease, unspecified",ICD10,Condition
+Z95.1,Presence of aortocoronary bypass graft,ICD10,Condition
+Z95.5,Presence of coronary angioplasty implant and graft,ICD10,Condition
+Z98.6,Angioplasty status,ICD10,Condition
+Z98.61,Coronary angioplasty status,ICD10,Condition
+021008C,"Bypass Coronary Artery, One Artery from Thoracic Artery with Zooplastic Tissue, Open Approach",ICD10,Procedure
+021008W,"Bypass Coronary Artery, One Artery from Aorta with Zooplastic Tissue, Open Approach",ICD10,Procedure
+0210088,"Bypass Coronary Artery, One Artery from Right Internal Mammary with Zooplastic Tissue, Open Approach",ICD10,Procedure
+0210089,"Bypass Coronary Artery, One Artery from Left Internal Mammary with Zooplastic Tissue, Open Approach",ICD10,Procedure
+0210093,"Bypass Coronary Artery, One Artery from Coronary Artery with Autologous Venous Tissue, Open Approach",ICD10,Procedure
+0210098,"Bypass Coronary Artery, One Artery from Right Internal Mammary with Autologous Venous Tissue, Open Approach",ICD10,Procedure
+0210099,"Bypass Coronary Artery, One Artery from Left Internal Mammary with Autologous Venous Tissue, Open Approach",ICD10,Procedure
+021009C,"Bypass Coronary Artery, One Artery from Thoracic Artery with Autologous Venous Tissue, Open Approach",ICD10,Procedure
+021009F,"Bypass Coronary Artery, One Artery from Abdominal Artery with Autologous Venous Tissue, Open Approach",ICD10,Procedure
+021009W,"Bypass Coronary Artery, One Artery from Aorta with Autologous Venous Tissue, Open Approach",ICD10,Procedure
+02100A3,"Bypass Coronary Artery, One Artery from Coronary Artery with Autologous Arterial Tissue, Open Approach",ICD10,Procedure
+02100A8,"Bypass Coronary Artery, One Artery from Right Internal Mammary with Autologous Arterial Tissue, Open Approach",ICD10,Procedure
+02100A9,"Bypass Coronary Artery, One Artery from Left Internal Mammary with Autologous Arterial Tissue, Open Approach",ICD10,Procedure
+02100AC,"Bypass Coronary Artery, One Artery from Thoracic Artery with Autologous Arterial Tissue, Open Approach",ICD10,Procedure
+02100AF,"Bypass Coronary Artery, One Artery from Abdominal Artery with Autologous Arterial Tissue, Open Approach",ICD10,Procedure
+02100AW,"Bypass Coronary Artery, One Artery from Aorta with Autologous Arterial Tissue, Open Approach",ICD10,Procedure
+02100J3,"Bypass Coronary Artery, One Artery from Coronary Artery with Synthetic Substitute, Open Approach",ICD10,Procedure
+02100J8,"Bypass Coronary Artery, One Artery from Right Internal Mammary with Synthetic Substitute, Open Approach",ICD10,Procedure
+02100J9,"Bypass Coronary Artery, One Artery from Left Internal Mammary with Synthetic Substitute, Open Approach",ICD10,Procedure
+02100JC,"Bypass Coronary Artery, One Artery from Thoracic Artery with Synthetic Substitute, Open Approach",ICD10,Procedure
+02100JF,"Bypass Coronary Artery, One Artery from Abdominal Artery with Synthetic Substitute, Open Approach",ICD10,Procedure
+02100JW,"Bypass Coronary Artery, One Artery from Aorta with Synthetic Substitute, Open Approach",ICD10,Procedure
+02100K3,"Bypass Coronary Artery, One Artery from Coronary Artery with Nonautologous Tissue Substitute, Open Approach",ICD10,Procedure
+02100K8,"Bypass Coronary Artery, One Artery from Right Internal Mammary with Nonautologous Tissue Substitute, Open Approach",ICD10,Procedure
+02100K9,"Bypass Coronary Artery, One Artery from Left Internal Mammary with Nonautologous Tissue Substitute, Open Approach",ICD10,Procedure
+02100KC,"Bypass Coronary Artery, One Artery from Thoracic Artery with Nonautologous Tissue Substitute, Open Approach",ICD10,Procedure
+02100KF,"Bypass Coronary Artery, One Artery from Abdominal Artery with Nonautologous Tissue Substitute, Open Approach",ICD10,Procedure
+02100KW,"Bypass Coronary Artery, One Artery from Aorta with Nonautologous Tissue Substitute, Open Approach",ICD10,Procedure
+02100Z3,"Bypass Coronary Artery, One Artery from Coronary Artery, Open Approach",ICD10,Procedure
+02100Z8,"Bypass Coronary Artery, One Artery from Right Internal Mammary, Open Approach",ICD10,Procedure
+02100Z9,"Bypass Coronary Artery, One Artery from Left Internal Mammary, Open Approach",ICD10,Procedure
+02100ZC,"Bypass Coronary Artery, One Artery from Thoracic Artery, Open Approach",ICD10,Procedure
+02100ZF,"Bypass Coronary Artery, One Artery from Abdominal Artery, Open Approach",ICD10,Procedure
+0210488,"Bypass Coronary Artery, One Artery from Right Internal Mammary with Zooplastic Tissue, Percutaneous Endoscopic Approach",ICD10,Procedure
+021048C,"Bypass Coronary Artery, One Artery from Thoracic Artery with Zooplastic Tissue, Percutaneous Endoscopic Approach",ICD10,Procedure
+021048W,"Bypass Coronary Artery, One Artery from Aorta with Zooplastic Tissue, Percutaneous Endoscopic Approach",ICD10,Procedure
+0210489,"Bypass Coronary Artery, One Artery from Left Internal Mammary with Zooplastic Tissue, Percutaneous Endoscopic Approach",ICD10,Procedure
+0210493,"Bypass Coronary Artery, One Artery from Coronary Artery with Autologous Venous Tissue, Percutaneous Endoscopic Approach",ICD10,Procedure
+0210498,"Bypass Coronary Artery, One Artery from Right Internal Mammary with Autologous Venous Tissue, Percutaneous Endoscopic Approach",ICD10,Procedure
+0210499,"Bypass Coronary Artery, One Artery from Left Internal Mammary with Autologous Venous Tissue, Percutaneous Endoscopic Approach",ICD10,Procedure
+021049C,"Bypass Coronary Artery, One Artery from Thoracic Artery with Autologous Venous Tissue, Percutaneous Endoscopic Approach",ICD10,Procedure
+021049F,"Bypass Coronary Artery, One Artery from Abdominal Artery with Autologous Venous Tissue, Percutaneous Endoscopic Approach",ICD10,Procedure
+021049W,"Bypass Coronary Artery, One Artery from Aorta with Autologous Venous Tissue, Percutaneous Endoscopic Approach",ICD10,Procedure
+02104A3,"Bypass Coronary Artery, One Artery from Coronary Artery with Autologous Arterial Tissue, Percutaneous Endoscopic Approach",ICD10,Procedure
+02104A8,"Bypass Coronary Artery, One Artery from Right Internal Mammary with Autologous Arterial Tissue, Percutaneous Endoscopic Approach",ICD10,Procedure
+02104A9,"Bypass Coronary Artery, One Artery from Left Internal Mammary with Autologous Arterial Tissue, Percutaneous Endoscopic Approach",ICD10,Procedure
+02104AC,"Bypass Coronary Artery, One Artery from Thoracic Artery with Autologous Arterial Tissue, Percutaneous Endoscopic Approach",ICD10,Procedure
+02104AF,"Bypass Coronary Artery, One Artery from Abdominal Artery with Autologous Arterial Tissue, Percutaneous Endoscopic Approach",ICD10,Procedure
+02104AW,"Bypass Coronary Artery, One Artery from Aorta with Autologous Arterial Tissue, Percutaneous Endoscopic Approach",ICD10,Procedure
+02104J3,"Bypass Coronary Artery, One Artery from Coronary Artery with Synthetic Substitute, Percutaneous Endoscopic Approach",ICD10,Procedure
+02104J8,"Bypass Coronary Artery, One Artery from Right Internal Mammary with Synthetic Substitute, Percutaneous Endoscopic Approach",ICD10,Procedure
+02104J9,"Bypass Coronary Artery, One Artery from Left Internal Mammary with Synthetic Substitute, Percutaneous Endoscopic Approach",ICD10,Procedure
+02104JC,"Bypass Coronary Artery, One Artery from Thoracic Artery with Synthetic Substitute, Percutaneous Endoscopic Approach",ICD10,Procedure
+02104JF,"Bypass Coronary Artery, One Artery from Abdominal Artery with Synthetic Substitute, Percutaneous Endoscopic Approach",ICD10,Procedure
+02104JW,"Bypass Coronary Artery, One Artery from Aorta with Synthetic Substitute, Percutaneous Endoscopic Approach",ICD10,Procedure
+02104K3,"Bypass Coronary Artery, One Artery from Coronary Artery with Nonautologous Tissue Substitute, Percutaneous Endoscopic Approach",ICD10,Procedure
+02104K8,"Bypass Coronary Artery, One Artery from Right Internal Mammary with Nonautologous Tissue Substitute, Percutaneous Endoscopic Approach",ICD10,Procedure
+02104K9,"Bypass Coronary Artery, One Artery from Left Internal Mammary with Nonautologous Tissue Substitute, Percutaneous Endoscopic Approach",ICD10,Procedure
+02104KC,"Bypass Coronary Artery, One Artery from Thoracic Artery with Nonautologous Tissue Substitute, Percutaneous Endoscopic Approach",ICD10,Procedure
+02104KF,"Bypass Coronary Artery, One Artery from Abdominal Artery with Nonautologous Tissue Substitute, Percutaneous Endoscopic Approach",ICD10,Procedure
+02104KW,"Bypass Coronary Artery, One Artery from Aorta with Nonautologous Tissue Substitute, Percutaneous Endoscopic Approach",ICD10,Procedure
+02104Z3,"Bypass Coronary Artery, One Artery from Coronary Artery, Percutaneous Endoscopic Approach",ICD10,Procedure
+02104Z8,"Bypass Coronary Artery, One Artery from Right Internal Mammary, Percutaneous Endoscopic Approach",ICD10,Procedure
+02104Z9,"Bypass Coronary Artery, One Artery from Left Internal Mammary, Percutaneous Endoscopic Approach",ICD10,Procedure
+02104ZC,"Bypass Coronary Artery, One Artery from Thoracic Artery, Percutaneous Endoscopic Approach",ICD10,Procedure
+02104ZF,"Bypass Coronary Artery, One Artery from Abdominal Artery, Percutaneous Endoscopic Approach",ICD10,Procedure
+021108W,"Bypass Coronary Artery, Two Arteries from Aorta with Zooplastic Tissue, Open Approach",ICD10,Procedure
+211098,"Bypass Coronary Artery, Two Arteries from Right Internal Mammary with Autologous Venous Tissue, Open Approach",ICD10,Procedure
+211099,"Bypass Coronary Artery, Two Arteries from Left Internal Mammary with Autologous Venous Tissue, Open Approach",ICD10,Procedure
+021109C,"Bypass Coronary Artery, Two Arteries from Thoracic Artery with Autologous Venous Tissue, Open Approach",ICD10,Procedure
+021109W,"Bypass Coronary Artery, Two Arteries from Aorta with Autologous Venous Tissue, Open Approach",ICD10,Procedure
+02110A8,"Bypass Coronary Artery, Two Arteries from Right Internal Mammary with Autologous Arterial Tissue, Open Approach",ICD10,Procedure
+02110A9,"Bypass Coronary Artery, Two Arteries from Left Internal Mammary with Autologous Arterial Tissue, Open Approach",ICD10,Procedure
+02110AC,"Bypass Coronary Artery, Two Arteries from Thoracic Artery with Autologous Arterial Tissue, Open Approach",ICD10,Procedure
+02110AW,"Bypass Coronary Artery, Two Arteries from Aorta with Autologous Arterial Tissue, Open Approach",ICD10,Procedure
+02110J8,"Bypass Coronary Artery, Two Arteries from Right Internal Mammary with Synthetic Substitute, Open Approach",ICD10,Procedure
+02110J9,"Bypass Coronary Artery, Two Arteries from Left Internal Mammary with Synthetic Substitute, Open Approach",ICD10,Procedure
+02110JC,"Bypass Coronary Artery, Two Arteries from Thoracic Artery with Synthetic Substitute, Open Approach",ICD10,Procedure
+02110JW,"Bypass Coronary Artery, Two Arteries from Aorta with Synthetic Substitute, Open Approach",ICD10,Procedure
+02110K8,"Bypass Coronary Artery, Two Arteries from Right Internal Mammary with Nonautologous Tissue Substitute, Open Approach",ICD10,Procedure
+02110K9,"Bypass Coronary Artery, Two Arteries from Left Internal Mammary with Nonautologous Tissue Substitute, Open Approach",ICD10,Procedure
+02110KC,"Bypass Coronary Artery, Two Arteries from Thoracic Artery with Nonautologous Tissue Substitute, Open Approach",ICD10,Procedure
+02110KW,"Bypass Coronary Artery, Two Arteries from Aorta with Nonautologous Tissue Substitute, Open Approach",ICD10,Procedure
+02110Z8,"Bypass Coronary Artery, Two Arteries from Right Internal Mammary, Open Approach",ICD10,Procedure
+02110Z9,"Bypass Coronary Artery, Two Arteries from Left Internal Mammary, Open Approach",ICD10,Procedure
+02110ZC,"Bypass Coronary Artery, Two Arteries from Thoracic Artery, Open Approach",ICD10,Procedure
+021148W,"Bypass Coronary Artery, Two Arteries from Aorta with Zooplastic Tissue, Percutaneous Endoscopic Approach",ICD10,Procedure
+211498,"Bypass Coronary Artery, Two Arteries from Right Internal Mammary with Autologous Venous Tissue, Percutaneous Endoscopic Approach",ICD10,Procedure
+211499,"Bypass Coronary Artery, Two Arteries from Left Internal Mammary with Autologous Venous Tissue, Percutaneous Endoscopic Approach",ICD10,Procedure
+021149C,"Bypass Coronary Artery, Two Arteries from Thoracic Artery with Autologous Venous Tissue, Percutaneous Endoscopic Approach",ICD10,Procedure
+021149W,"Bypass Coronary Artery, Two Arteries from Aorta with Autologous Venous Tissue, Percutaneous Endoscopic Approach",ICD10,Procedure
+02114A8,"Bypass Coronary Artery, Two Arteries from Right Internal Mammary with Autologous Arterial Tissue, Percutaneous Endoscopic Approach",ICD10,Procedure
+02114A9,"Bypass Coronary Artery, Two Arteries from Left Internal Mammary with Autologous Arterial Tissue, Percutaneous Endoscopic Approach",ICD10,Procedure
+02114AC,"Bypass Coronary Artery, Two Arteries from Thoracic Artery with Autologous Arterial Tissue, Percutaneous Endoscopic Approach",ICD10,Procedure
+02114AW,"Bypass Coronary Artery, Two Arteries from Aorta with Autologous Arterial Tissue, Percutaneous Endoscopic Approach",ICD10,Procedure
+02114J8,"Bypass Coronary Artery, Two Arteries from Right Internal Mammary with Synthetic Substitute, Percutaneous Endoscopic Approach",ICD10,Procedure
+02114J9,"Bypass Coronary Artery, Two Arteries from Left Internal Mammary with Synthetic Substitute, Percutaneous Endoscopic Approach",ICD10,Procedure
+02114JC,"Bypass Coronary Artery, Two Arteries from Thoracic Artery with Synthetic Substitute, Percutaneous Endoscopic Approach",ICD10,Procedure
+02114JW,"Bypass Coronary Artery, Two Arteries from Aorta with Synthetic Substitute, Percutaneous Endoscopic Approach",ICD10,Procedure
+02114K8,"Bypass Coronary Artery, Two Arteries from Right Internal Mammary with Nonautologous Tissue Substitute, Percutaneous Endoscopic Approach",ICD10,Procedure
+02114K9,"Bypass Coronary Artery, Two Arteries from Left Internal Mammary with Nonautologous Tissue Substitute, Percutaneous Endoscopic Approach",ICD10,Procedure
+02114KC,"Bypass Coronary Artery, Two Arteries from Thoracic Artery with Nonautologous Tissue Substitute, Percutaneous Endoscopic Approach",ICD10,Procedure
+02114KW,"Bypass Coronary Artery, Two Arteries from Aorta with Nonautologous Tissue Substitute, Percutaneous Endoscopic Approach",ICD10,Procedure
+02114Z8,"Bypass Coronary Artery, Two Arteries from Right Internal Mammary, Percutaneous Endoscopic Approach",ICD10,Procedure
+02114Z9,"Bypass Coronary Artery, Two Arteries from Left Internal Mammary, Percutaneous Endoscopic Approach",ICD10,Procedure
+02114ZC,"Bypass Coronary Artery, Two Arteries from Thoracic Artery, Percutaneous Endoscopic Approach",ICD10,Procedure
+021209C,"Bypass Coronary Artery, Three Arteries from Thoracic Artery with Autologous Venous Tissue, Open Approach",ICD10,Procedure
+021209W,"Bypass Coronary Artery, Three Arteries from Aorta with Autologous Venous Tissue, Open Approach",ICD10,Procedure
+02120AC,"Bypass Coronary Artery, Three Arteries from Thoracic Artery with Autologous Arterial Tissue, Open Approach",ICD10,Procedure
+02120AW,"Bypass Coronary Artery, Three Arteries from Aorta with Autologous Arterial Tissue, Open Approach",ICD10,Procedure
+02120JC,"Bypass Coronary Artery, Three Arteries from Thoracic Artery with Synthetic Substitute, Open Approach",ICD10,Procedure
+02120JW,"Bypass Coronary Artery, Three Arteries from Aorta with Synthetic Substitute, Open Approach",ICD10,Procedure
+02120KC,"Bypass Coronary Artery, Three Arteries from Thoracic Artery with Nonautologous Tissue Substitute, Open Approach",ICD10,Procedure
+02120KW,"Bypass Coronary Artery, Three Arteries from Aorta with Nonautologous Tissue Substitute, Open Approach",ICD10,Procedure
+02120ZC,"Bypass Coronary Artery, Three Arteries from Thoracic Artery, Open Approach",ICD10,Procedure
+021249C,"Bypass Coronary Artery, Three Arteries from Thoracic Artery with Autologous Venous Tissue, Percutaneous Endoscopic Approach",ICD10,Procedure
+021249W,"Bypass Coronary Artery, Three Arteries from Aorta with Autologous Venous Tissue, Percutaneous Endoscopic Approach",ICD10,Procedure
+02124AC,"Bypass Coronary Artery, Three Arteries from Thoracic Artery with Autologous Arterial Tissue, Percutaneous Endoscopic Approach",ICD10,Procedure
+02124AW,"Bypass Coronary Artery, Three Arteries from Aorta with Autologous Arterial Tissue, Percutaneous Endoscopic Approach",ICD10,Procedure
+02124JC,"Bypass Coronary Artery, Three Arteries from Thoracic Artery with Synthetic Substitute, Percutaneous Endoscopic Approach",ICD10,Procedure
+02124JW,"Bypass Coronary Artery, Three Arteries from Aorta with Synthetic Substitute, Percutaneous Endoscopic Approach",ICD10,Procedure
+02124KC,"Bypass Coronary Artery, Three Arteries from Thoracic Artery with Nonautologous Tissue Substitute, Percutaneous Endoscopic Approach",ICD10,Procedure
+02124KW,"Bypass Coronary Artery, Three Arteries from Aorta with Nonautologous Tissue Substitute, Percutaneous Endoscopic Approach",ICD10,Procedure
+02124ZC,"Bypass Coronary Artery, Three Arteries from Thoracic Artery, Percutaneous Endoscopic Approach",ICD10,Procedure
+021308W,"Bypass Coronary Artery, Four or More Arteries from Aorta with Zooplastic Tissue, Open Approach",ICD10,Procedure
+021309C,"Bypass Coronary Artery, Four or More Arteries from Thoracic Artery with Autologous Venous Tissue, Open Approach",ICD10,Procedure
+021309W,"Bypass Coronary Artery, Four or More Arteries from Aorta with Autologous Venous Tissue, Open Approach",ICD10,Procedure
+02130AC,"Bypass Coronary Artery, Four or More Arteries from Thoracic Artery with Autologous Arterial Tissue, Open Approach",ICD10,Procedure
+02130AW,"Bypass Coronary Artery, Four or More Arteries from Aorta with Autologous Arterial Tissue, Open Approach",ICD10,Procedure
+02130JC,"Bypass Coronary Artery, Four or More Arteries from Thoracic Artery with Synthetic Substitute, Open Approach",ICD10,Procedure
+02130JW,"Bypass Coronary Artery, Four or More Arteries from Aorta with Synthetic Substitute, Open Approach",ICD10,Procedure
+02130KC,"Bypass Coronary Artery, Four or More Arteries from Thoracic Artery with Nonautologous Tissue Substitute, Open Approach",ICD10,Procedure
+02130KW,"Bypass Coronary Artery, Four or More Arteries from Aorta with Nonautologous Tissue Substitute, Open Approach",ICD10,Procedure
+02130ZC,"Bypass Coronary Artery, Four or More Arteries from Thoracic Artery, Open Approach",ICD10,Procedure
+021349C,"Bypass Coronary Artery, Four or More Arteries from Thoracic Artery with Autologous Venous Tissue, Percutaneous Endoscopic Approach",ICD10,Procedure
+021349W,"Bypass Coronary Artery, Four or More Arteries from Aorta with Autologous Venous Tissue, Percutaneous Endoscopic Approach",ICD10,Procedure
+02134AC,"Bypass Coronary Artery, Four or More Arteries from Thoracic Artery with Autologous Arterial Tissue, Percutaneous Endoscopic Approach",ICD10,Procedure
+02134AW,"Bypass Coronary Artery, Four or More Arteries from Aorta with Autologous Arterial Tissue, Percutaneous Endoscopic Approach",ICD10,Procedure
+02134JC,"Bypass Coronary Artery, Four or More Arteries from Thoracic Artery with Synthetic Substitute, Percutaneous Endoscopic Approach",ICD10,Procedure
+02134JW,"Bypass Coronary Artery, Four or More Arteries from Aorta with Synthetic Substitute, Percutaneous Endoscopic Approach",ICD10,Procedure
+02134KC,"Bypass Coronary Artery, Four or More Arteries from Thoracic Artery with Nonautologous Tissue Substitute, Percutaneous Endoscopic Approach",ICD10,Procedure
+02134KW,"Bypass Coronary Artery, Four or More Arteries from Aorta with Nonautologous Tissue Substitute, Percutaneous Endoscopic Approach",ICD10,Procedure
+02134ZC,"Bypass Coronary Artery, Four or More Arteries from Thoracic Artery, Percutaneous Endoscopic Approach",ICD10,Procedure
+0270xxx,"Dilation of Coronary Artery, One Artery",ICD10,Procedure
+02700ZZ,"Dilation of Coronary Artery, One Artery, Open Approach",ICD10,Procedure
+02703ZZ,"Dilation of Coronary Artery, One Artery, Percutaneous Approach.",ICD10,Procedure
+02704ZZ,"Dilation of Coronary Artery, One Artery, Percutaneous Endoscopic Approach",ICD10,Procedure
+0271xxx,"Dilation of Coronary Artery, Two Arteries",ICD10,Procedure
+02710ZZ,"Dilation of Coronary Artery, Two Arteries, Open Approach",ICD10,Procedure
+02713ZZ,"Dilation of Coronary Artery, Two Arteries, Percutaneous Approach",ICD10,Procedure
+02714ZZ,"Dilation of Coronary Artery, Two Arteries, Percutaneous Endoscopic Approach",ICD10,Procedure
+0272xxx,"Dilation of Coronary Artery, Three Arteries",ICD10,Procedure
+02720ZZ,"Dilation of Coronary Artery, Three Arteries, Open Approach",ICD10,Procedure
+02723ZZ,"Dilation of Coronary Artery, Three Arteries, Percutaneous Approach",ICD10,Procedure
+02724ZZ,"Dilation of Coronary Artery, Three Arteries, Percutaneous Endoscopic Approach",ICD10,Procedure
+0273xxx,"Dilation of Coronary Artery, Four or More Arteries",ICD10,Procedure
+02730ZZ,"Dilation of Coronary Artery, Four or More Arteries, Open Approach",ICD10,Procedure
+02733ZZ,"Dilation of Coronary Artery, Four or More Arteries, Percutaneous Approach",ICD10,Procedure
+02734ZZ,"Dilation of Coronary Artery, Four or More Arteries, Percutaneous Endoscopic Approach",ICD10,Procedure
+02C0xxx,Extirpation of Matter from Coronary Artery,ICD10,Procedure
+02C00Z6,"Extirpation of Matter from Coronary Artery, One Artery, Bifurcation, Open Approach",ICD10,Procedure
+02C00ZZ,"Extirpation of Matter from Coronary Artery, One Artery, Open Approach",ICD10,Procedure
+02C03Z6,"Extirpation of Matter from Coronary Artery, One Artery, Bifurcation, Percutaneous Approach",ICD10,Procedure
+02C03Z7,"Extirpation of Matter from Coronary Artery, One Artery, Orbital Atherectomy Technique, Percutaneous Approach",ICD10,Procedure
+02C03ZZ,"Extirpation of Matter from Coronary Artery, One Artery, Percutaneous Approach",ICD10,Procedure
+02C04Z6,"Extirpation of Matter from Coronary Artery, One Artery, Bifurcation, Percutaneous Endoscopic Approach",ICD10,Procedure
+02C04ZZ,"Extirpation of Matter from Coronary Artery, One Artery, Percutaneous Endoscopic Approach",ICD10,Procedure
+02C1xxx,"Extirpation of Matter from Coronary Artery, Two Arteries",ICD10,Procedure
+02C10Z6,"Extirpation of Matter from Coronary Artery, Two Artery, Bifurcation, Open Approach",ICD10,Procedure
+02C10ZZ,"Extirpation of Matter from Coronary Artery, Two Arteries, Open Approach",ICD10,Procedure
+02C13Z6,"Extirpation of Matter from Coronary Artery, Two Arteries, Bifurcation, Percutaneous Approach",ICD10,Procedure
+02C13Z7,"Extirpation of Matter from Coronary Artery, Two Arteries, Orbital Atherectomy Technique, Percutaneous Approach",ICD10,Procedure
+02C13ZZ,"Extirpation of Matter from Coronary Artery, Two Arteries, Percutaneous Approach",ICD10,Procedure
+02C14Z6,"Extirpation of Matter from Coronary Artery, Two Artery, Bifurcation, Percutaneous Endoscopic Approach",ICD10,Procedure
+02C14ZZ,"Extirpation of Matter from Coronary Artery, Two Arteries, Percutaneous Endoscopic Approach",ICD10,Procedure
+02C2xxx,"Extirpation of Matter from Coronary Artery, Three Arteries",ICD10,Procedure
+02C20Z6,"Extirpation of Matter from Coronary Artery, Three Arteries, Bifurcation, Open Approach",ICD10,Procedure
+02C20ZZ,"Extirpation of Matter from Coronary Artery, Three Arteries, Open Approach",ICD10,Procedure
+02C23Z6,"Extirpation of Matter from Coronary Artery, Three Artery, Bifurcation, Open Approach",ICD10,Procedure
+02C23Z7,"Extirpation of Matter from Coronary Artery, Three Arteries, Open Approach",ICD10,Procedure
+02C23ZZ,"Extirpation of Matter from Coronary Artery, Three Arteries, Percutaneous Approach",ICD10,Procedure
+02C24Z6,"Extirpation of Matter from Coronary Artery, Three Arteries, Bifurcation, Percutaneous Endoscopic Approach",ICD10,Procedure
+02C24ZZ,"Extirpation of Matter from Coronary Artery, Three Arteries, Percutaneous Endoscopic Approach",ICD10,Procedure
+02C3xxx,"Extirpation of Matter from Coronary Artery, Four or More Arteries",ICD10,Procedure
+02C30Z6,"Extirpation of Matter from Coronary Artery, Four or More Arteries, Bifurcation, Open Approach",ICD10,Procedure
+02C30ZZ,"Extirpation of Matter from Coronary Artery, Four or More Arteries, Open Approach",ICD10,Procedure
+02C33Z6,"Extirpation of Matter from Coronary Artery, Four or More Arteries, Bifurcation, Open Approach",ICD10,Procedure
+02C33Z7,"Extirpation of Matter from Coronary Artery, Four or More Arteries, Percutaneous Endoscopic Approach",ICD10,Procedure
+02C33ZZ,"Extirpation of Matter from Coronary Artery, Four or More Arteries, Percutaneous Approach",ICD10,Procedure
+02C34Z6,"Extirpation of Matter from Coronary Artery, Four or More Arteries, Bifurcation, Percutaneous Endoscopic Approach",ICD10,Procedure
+02C34ZZ,"Extirpation of Matter from Coronary Artery, Four or More Arteries, Percutaneous Endoscopic Approach",ICD10,Procedure
+3E07017,"Introduction of Other Thrombolytic into Coronary Artery, Open Approach",ICD10,Procedure
+3E070PZ,"Introduction of Platelet Inhibitor into Coronary Artery, Open Approach",ICD10,Procedure
+3E07317,"Introduction of Other Thrombolytic into Coronary Artery, Percutaneous Approach",ICD10,Procedure
+3E073PZ,"Introduction of Platelet Inhibitor into Coronary Artery, Percutaneous Approach",ICD10,Procedure
+33510,"Coronary artery bypass, vein only; single coronary venous graft",CPT,Procedure
+33511,"Coronary artery bypass, vein only; 2 coronary venous grafts",CPT,Procedure
+33512,"Coronary artery bypass, vein only; 3 coronary venous grafts",CPT,Procedure
+33513,"Coronary artery bypass, vein only; 4 coronary venous grafts",CPT,Procedure
+33514,"Coronary artery bypass, vein only; 5 coronary venous grafts",CPT,Procedure
+33516,"Coronary artery bypass, vein only; 6 or more coronary venous grafts",CPT,Procedure
+33517,"Coronary artery bypass, using venous graft(s) and arterial graft(s); single vein graft (List separately in addition to code for primary procedure)",CPT,Procedure
+33518,"Coronary artery bypass, using venous graft(s) and arterial graft(s); 2 venous grafts (List separately in addition to code for primary procedure)",CPT,Procedure
+33519,"Coronary artery bypass, using venous graft(s) and arterial graft(s); 3 venous grafts (List separately in addition to code for primary procedure)",CPT,Procedure
+33521,"Coronary artery bypass, using venous graft(s) and arterial graft(s); 4 venous grafts (List separately in addition to code for primary procedure)",CPT,Procedure
+33522,"Coronary artery bypass, using venous graft(s) and arterial graft(s); 5 venous grafts (List separately in addition to code for primary procedure)",CPT,Procedure
+33523,"Coronary artery bypass, using venous graft(s) and arterial graft(s); 6 or more venous grafts (List separately in addition to code for primary procedure)",CPT,Procedure
+33533,"Coronary artery bypass, using arterial graft(s); single arterial graft",CPT,Procedure
+33534,"Coronary artery bypass, using arterial graft(s); 2 coronary arterial grafts",CPT,Procedure
+33535,"Coronary artery bypass, using arterial graft(s); 3 coronary arterial grafts",CPT,Procedure
+33536,"Coronary artery bypass, using arterial graft(s); 4 or more coronary arterial grafts",CPT,Procedure
+33545,Arterial Grafting for Coronary Artery Bypass,CPT,Procedure
+33572,Coronary Endarterectomy Procedures,CPT,Procedure
+35500,Vein Bypass Graft Procedures,CPT,Procedure
+92920,Percutaneous revascularization services performed for occlusive disease of the coronary vessels,CPT,Procedure
+92921,"Percutaneous transluminal coronary angioplasty; each additional branch of a major coronary artery (List
  separately in addition to code for primary procedure)",CPT,Procedure
-329,329,329.0,92924,"Percutaneous transluminal coronary atherectomy, with coronary angioplasty when performed; single
+92924,"Percutaneous transluminal coronary atherectomy, with coronary angioplasty when performed; single
  major coronary artery or branch",CPT,Procedure
-330,330,330.0,92925,"Percutaneous transluminal coronary atherectomy, with coronary angioplasty when performed; each
+92925,"Percutaneous transluminal coronary atherectomy, with coronary angioplasty when performed; each
  additional branch of a major coronary artery (List separately in addition to code for primary procedure)",CPT,Procedure
-331,331,331.0,92928,"Percutaneous transcatheter placement of intracoronary stent(s), with coronary angioplasty when performed; single major coronary artery or branch",CPT,Procedure
-332,332,332.0,92929,"Percutaneous transcatheter placement of intracoronary stent(s), with coronary angioplasty when performed; each additional branch of a major coronary artery (List separately in addition to code for primary procedure)",CPT,Procedure
-333,333,333.0,92933,"Percutaneous transluminal coronary atherectomy, with intracoronary stent, with coronary angioplasty when performed; single major coronary artery or branch",CPT,Procedure
-334,334,334.0,92934,"Percutaneous transluminal coronary atherectomy, with intracoronary stent, with coronary angioplasty when performed; each additional branch of a major coronary artery (List separately in addition to code for primary procedure)",CPT,Procedure
-335,335,335.0,92937,"Percutaneous transluminal revascularization of or through coronary artery bypass graft (internal mammary, free arterial, venous), any combination of intracoronary stent, atherectomy and angioplasty, including distal protection when performed; single vessel",CPT,Procedure
-336,336,336.0,92938,"Percutaneous transluminal revascularization of or through coronary artery bypass graft (internal mammary, free arterial, venous), any combination of intracoronary stent, atherectomy and angioplasty, including distal protection when performed; each additional branch subtended by the bypass graft (List separately in addition to code for primary procedure)",CPT,Procedure
-337,337,337.0,92941,"Percutaneous transluminal revascularization of acute total/subtotal occlusion during acute myocardial infarction, coronary artery or coronary artery bypass graft, any combination of intracoronary stent, atherectomy and angioplasty, including aspiration thrombectomy when performed, single vessel",CPT,Procedure
-338,338,338.0,92943,"Percutaneous transluminal revascularization of acute total/subtotal occlusion during acute myocardial infarction, coronary artery or coronary artery bypass graft, any combination of intracoronary stent, atherectomy and angioplasty, including aspiration thrombectomy when performed, single vessel",CPT,Procedure
-339,339,339.0,92944,"Percutaneous transluminal revascularization of chronic total occlusion, coronary artery, coronary artery branch, or coronary artery bypass graft, any combination of intracoronary stent, atherectomy and angioplasty; each additional coronary artery, coronary artery branch, or bypass graft (List separately in addition to code for primary procedure)",CPT,Procedure
-340,340,340.0,92973,Percutaneous transluminal coronary thrombectomy mechanical (List separately in addition to code for primary procedure),CPT,Procedure
-341,341,341.0,92974,Transcatheter placement of radiation delivery device for subsequent coronary intravascular brachytherapy (List separately in addition to code for primary procedure),CPT,Procedure
-342,342,342.0,92975,"Thrombolysis, coronary; by intracoronary infusion, including selective coronary angiography",CPT,Procedure
-343,343,343.0,92977,An intravenous injection or infusion of a thrombolytic agent,CPT,Procedure
-344,344,344.0,92980,"Transcatheter placement of an intracoronary stent(s), percutaneous, with or without other therapeutic intervention, any method; single vessel",CPT,Procedure
-345,345,345.0,92981,"Transcatheter placement of an intracoronary stent(s), percutaneous, with or without other therapeutic intervention, any method; each additional vessel (List separately in addition to code for primary procedure)",CPT,Procedure
-346,346,346.0,92982,Percutaneous transluminal coronary balloon angioplasty; single vessel,CPT,Procedure
-347,347,347.0,92984,Percutaneous transluminal coronary balloon angioplasty; each additional vessel (List separately in addition to code for primary procedure),CPT,Procedure
-348,348,348.0,92995,"Percutaneous transluminal coronary atherectomy, by mechanical or other method, with or without balloon angioplasty; single vessel",CPT,Procedure
-349,349,349.0,92996,"Percutaneous transluminal coronary atherectomy, by mechanical or other method, with or without balloon angioplasty; each additional vessel (List separately in addition to code for primary procedure)",CPT,Procedure
-350,350,350.0,92998,Percutaneous transluminal pulmonary artery balloon angioplasty.,CPT,Procedure
-351,351,351.0,C9600,"Percutaneous transcatheter placement of drug eluting intracoronary stent(s), with coronary angioplasty when performed; single major coronary artery or branch",CPT,Procedure
-352,352,352.0,C9601,"Percutaneous transcatheter placement of drug-eluting intracoronary stent(s), with coronary angioplasty when performed; each additional branch of a major coronary artery (list separately in addition to code for primary procedure)",CPT,Procedure
-353,353,353.0,C9602,"Percutaneous transluminal coronary atherectomy, with drug eluting intracoronary stent, with coronary angioplasty when performed; single major coronary artery or branch",CPT,Procedure
-354,354,354.0,C9603,"Percutaneous transluminal coronary atherectomy, with drug-eluting intracoronary stent, with coronary angioplasty when performed; each additional branch of a major coronary artery (list separately in addition to code for primary procedure)",CPT,Procedure
-355,355,355.0,C9604,"Percutaneous transluminal revascularization of or through coronary artery bypass graft (internal mammary, free arterial, venous), any combination of drug-eluting intracoronary stent, atherectomy and angioplasty, including distal protection when performed; single vessel",CPT,Procedure
-356,356,356.0,C9605,"Percutaneous transluminal revascularization of or through coronary artery bypass graft (internal mammary, free arterial, venous), any combination of drug-eluting intracoronary stent, atherectomy and angioplasty, including distal protection when performed; each additional branch subtended by the bypass graft (list separately in addition to code for primary procedure)",CPT,Procedure
-357,357,357.0,C9606,"Percutaneous transluminal revascularization of acute total/subtotal occlusion during acute myocardial infarction, coronary artery or coronary artery bypass graft, any combination of drug-eluting intracoronary stent, atherectomy and angioplasty, including aspiration thrombectomy when performed, single vessel",CPT,Procedure
-358,358,358.0,C9607,"Percutaneous transluminal revascularization of chronic total occlusion, coronary artery, coronary artery branch, or coronary artery bypass graft, any combination of drug-eluting intracoronary stent, atherectomy and angioplasty; single vessel",CPT,Procedure
-359,359,359.0,C9608,"Percutaneous transluminal revascularization of chronic total occlusion, coronary artery, coronary artery branch, or coronary artery bypass graft, any combination of drug-eluting intracoronary stent, atherectomy and angioplasty; each additional coronary artery, coronary artery branch, or bypass graft (list separately in addition to code for primary procedure)",CPT,Procedure
-360,360,360.0,282006,Acute myocardial infarction of other lateral wall episode of care unspecified,SNOMED,Condition
-361,361,361.0,1077002,Acute myocardial infarction of other specified sites episode of care unspecified,SNOMED,Condition
-362,362,362.0,1755008,Old myocardial infarction,SNOMED,Condition
-363,363,363.0,3098007,Acute myocardial infarction of other specified sites episode of care unspecified,SNOMED,Condition
-364,364,364.0,10273003,Acute myocardial infarction of other specified sites episode of care unspecified,SNOMED,Condition
-365,365,365.0,15990001,Acute myocardial infarction of other lateral wall episode of care unspecified,SNOMED,Condition
-366,366,366.0,22298006,Heart attack,SNOMED,Condition
-367,367,367.0,52035003,Acute myocardial infarction of other anterior wall episode of care unspecified,SNOMED,Condition
-368,368,368.0,54329005,Anterior myocardial infarction NOS,SNOMED,Condition
-369,369,369.0,56276002,Acute myocardial infarction of other specified sites episode of care unspecified,SNOMED,Condition
-370,370,370.0,57054005,Acute myocardial infarction,SNOMED,Condition
-371,371,371.0,58612006,Acute myocardial infarction of lateral wall,SNOMED,Condition
-372,372,372.0,59063002,Acute myocardial infarction of other lateral wall episode of care unspecified,SNOMED,Condition
-373,373,373.0,62695002,Acute myocardial infarction of other anterior wall episode of care unspecified,SNOMED,Condition
-374,374,374.0,64627002,Acute myocardial infarction of other lateral wall episode of care unspecified,SNOMED,Condition
-375,375,375.0,65547006,Acute inferolateral infarction,SNOMED,Condition
-376,376,376.0,70211005,Acute anterolateral infarction,SNOMED,Condition
-377,377,377.0,70422006,Acute subendocardial infarction,SNOMED,Condition
-378,378,378.0,73795002,Inferior myocardial infarction NOS,SNOMED,Condition
-379,379,379.0,76593002,Acute myocardial infarction of inferoposterior wall,SNOMED,Condition
-380,380,380.0,79009004,Acute myocardial infarction of other specified sites episode of care unspecified,SNOMED,Condition
-381,381,381.0,164868007,Acute myocardial infarction of other anterior wall episode of care unspecified,SNOMED,Condition
-382,382,382.0,164871004,Acute myocardial infarction of other lateral wall episode of care unspecified,SNOMED,Condition
-383,383,383.0,194809007,Acute myocardial infarction of other specified sites episode of care unspecified,SNOMED,Condition
-384,384,384.0,194856005,Acute myocardial infarction of unspecified site episode of care unspecified,SNOMED,Condition
-385,385,385.0,194857001,Acute myocardial infarction of unspecified site episode of care unspecified,SNOMED,Condition
-386,386,386.0,194858006,Acute myocardial infarction of unspecified site episode of care unspecified,SNOMED,Condition
-387,387,387.0,194862000,Acute myocardial infarction of unspecified site episode of care unspecified,SNOMED,Condition
-388,388,388.0,194866002,Acute myocardial infarction of unspecified site episode of care unspecified,SNOMED,Condition
-389,389,389.0,194868001,Acute myocardial infarction of unspecified site episode of care unspecified,SNOMED,Condition
-390,390,390.0,233825009,Acute myocardial infarction of other anterior wall episode of care unspecified,SNOMED,Condition
-391,391,391.0,233826005,Acute myocardial infarction of other anterior wall episode of care unspecified,SNOMED,Condition
-392,392,392.0,233827001,Acute Q wave infarction - anterolateral,SNOMED,Condition
-393,393,393.0,233829003,Acute myocardial infarction of other inferior wall episode of care unspecified,SNOMED,Condition
-394,394,394.0,233830008,Acute myocardial infarction of other inferior wall episode of care unspecified,SNOMED,Condition
-395,395,395.0,233831007,Acute Q wave infarction - inferolateral,SNOMED,Condition
-396,396,396.0,233833005,Acute myocardial infarction of other lateral wall episode of care unspecified,SNOMED,Condition
-397,397,397.0,233834004,Acute myocardial infarction of other lateral wall episode of care unspecified,SNOMED,Condition
-398,398,398.0,233838001,Posterior myocardial infarction NOS,SNOMED,Condition
-399,399,399.0,304914007,Acute Q-wave infarct,SNOMED,Condition
-400,400,400.0,311792005,Acute myocardial infarction of other anterior wall episode of care unspecified,SNOMED,Condition
-401,401,401.0,311793000,Acute myocardial infarction of other inferior wall episode of care unspecified,SNOMED,Condition
-402,402,402.0,371817007,Acute myocardial infarction of other specified sites episode of care unspecified,SNOMED,Condition
-403,403,403.0,394710008,Acute myocardial infarction of unspecified site episode of care unspecified,SNOMED,Condition
-404,404,404.0,401303003,Acute ST segment elevation myocardial infarction,SNOMED,Condition
-405,405,405.0,401314000,Acute non-ST segment elevation myocardial infarction,SNOMED,Condition
-406,406,406.0,418044006,Acute myocardial infarction of unspecified site episode of care unspecified,SNOMED,Condition
-407,407,407.0,703164000,Acute myocardial infarction of other anterior wall episode of care unspecified,SNOMED,Condition
-408,408,408.0,703165004,Acute myocardial infarction of other anterior wall episode of care unspecified,SNOMED,Condition
-409,409,409.0,703209002,Acute myocardial infarction of other inferior wall episode of care unspecified,SNOMED,Condition
-410,410,410.0,703210007,Acute myocardial infarction of other anterior wall episode of care unspecified,SNOMED,Condition
-411,411,411.0,703211006,Acute myocardial infarction of unspecified site episode of care unspecified,SNOMED,Condition
-412,412,412.0,703213009,Acute myocardial infarction of other inferior wall episode of care unspecified,SNOMED,Condition
-413,413,413.0,703251009,Acute myocardial infarction of inferior wall involving right ventricle,SNOMED,Condition
-414,414,414.0,703252002,Acute myocardial infarction of other anterior wall episode of care unspecified,SNOMED,Condition
-415,415,415.0,703253007,Acute myocardial infarction of other inferior wall episode of care unspecified,SNOMED,Condition
-416,416,416.0,840309000,Acute ST segment elevation myocardial infarction due to proximal left anterior descending coronary artery occlusion,SNOMED,Condition
-417,417,417.0,840312002,Acute ST segment elevation myocardial infarction due to mid left anterior descending coronary artery occlusion,SNOMED,Condition
-418,418,418.0,840316004,Acute ST segment elevation myocardial infarction due to distal left anterior descending coronary artery occlusion,SNOMED,Condition
-419,419,419.0,840609007,Acute ST segment elevation myocardial infarction due to occlusion of anterior descending branch of left coronary artery,SNOMED,Condition
-420,420,420.0,840680009,Acute ST segment elevation myocardial infarction due to occlusion of septal branch of anterior descending branch of left coronary artery,SNOMED,Condition
-421,421,421.0,846668006,Acute ST segment elevation myocardial infarction due to occlusion of diagonal branch of anterior descending branch of left coronary artery,SNOMED,Condition
-422,422,422.0,846683001,Acute ST segment elevation myocardial infarction due to occlusion of intermediate artery,SNOMED,Condition
-423,423,423.0,868214006,Acute ST segment elevation myocardial infarction due to occlusion of proximal portion of right coronary artery,SNOMED,Condition
-424,424,424.0,868217004,Acute ST segment elevation myocardial infarction due to occlusion of distal portion of right coronary artery,SNOMED,Condition
-425,425,425.0,868220007,Acute ST segment elevation myocardial infarction due to occlusion of mid portion of right coronary artery,SNOMED,Condition
-426,426,426.0,868224003,Acute ST segment elevation myocardial infarction due to occlusion of marginal branch of right coronary artery,SNOMED,Condition
-427,427,427.0,868225002,Acute ST segment elevation myocardial infarction due to occlusion of posterior descending branch of right coronary artery,SNOMED,Condition
-428,428,428.0,868226001,Acute ST segment elevation myocardial infarction due to occlusion of posterior lateral branch of right coronary artery,SNOMED,Condition
-429,429,429.0,896689003,Acute myocardial infarction due to occlusion of circumflex branch of left coronary artery,SNOMED,Condition
-430,430,430.0,896691006,Acute ST segment elevation myocardial infarction due to occlusion of circumflex branch of left coronary artery,SNOMED,Condition
-431,431,431.0,23311000119105,Acute myocardial infarction due to right coronary artery occlusion,SNOMED,Condition
-432,432,432.0,12238111000119106,Acute ST segment elevation myocardial infarction of inferoposterior wall,SNOMED,Condition
-433,433,433.0,15713081000119108,Acute ST segment elevation myocardial infarction due to left coronary artery occlusion,SNOMED,Condition
-434,434,434.0,15962541000119106,Acute ST segment elevation myocardial infarction of anteroapical wall,SNOMED,Condition
-435,435,437.0,723860000,Arrhythmia due to and following acute myocardial infarction,SNOMED,Condition
-436,436,438.0,194863005,Atrial septal defect due to and following acute myocardial infarction,SNOMED,Condition
-437,437,439.0,233847009,Cardiac rupture due to and following acute myocardial infarction,SNOMED,Condition
-438,438,440.0,827164008,Delayed postmyocardial infarction pericarditis,SNOMED,Condition
-439,439,441.0,827163002,Early postmyocardial infarction pericarditis,SNOMED,Condition
-440,440,443.0,1142308000,Mitral valve regurgitation due to acute myocardial infarction,SNOMED,Condition
-441,441,444.0,703330009,Mitral valve regurgitation due to acute myocardial infarction with papillary muscle and chordal rupture,SNOMED,Condition
-442,442,445.0,42531007,Other acute and subacute forms of ischaemic heart disease,SNOMED,Condition
-443,443,446.0,46109009,Other acute and subacute forms of ischaemic heart disease,SNOMED,Condition
-444,444,447.0,194823009,Other acute and subacute forms of ischaemic heart disease,SNOMED,Condition
-445,445,448.0,194849004,Other acute and subacute forms of ischaemic heart disease,SNOMED,Condition
-446,446,449.0,413439005,Other acute and subacute forms of ischaemic heart disease,SNOMED,Condition
-447,447,450.0,713405002,Other acute and subacute forms of ischaemic heart disease,SNOMED,Condition
-448,448,451.0,71023004,Pericarditis secondary to acute myocardial infarction,SNOMED,Condition
-449,449,452.0,314116003,Post infarct angina,SNOMED,Condition
-450,450,453.0,233929004,Post-infarction mural thrombus,SNOMED,Condition
-451,451,454.0,233885007,Post-infarction pericarditis,SNOMED,Condition
-452,452,455.0,233846000,Post-infarction ventricular septal defect,SNOMED,Condition
-453,453,456.0,66189004,Postmyocardial infarction syndrome,SNOMED,Condition
-454,454,458.0,703360004,Subendocardial infarction episode of care unspecified,SNOMED,Condition
-455,455,464.0,16415081000119104,Supraventricular tachycardia following acute myocardial infarction,SNOMED,Condition
-456,456,467.0,723858002,Ventricular aneurysm due to and following acute myocardial infarction,SNOMED,Condition
-457,457,468.0,233889001,Post-infarction hemopericardium,SNOMED,Condition
-458,458,469.0,129574000,Postoperative myocardial infarction,SNOMED,Condition
-459,459,473.0,429245005,Recurrent coronary arteriosclerosis after percutaneous transluminal coronary angioplasty,SNOMED,Condition
-460,460,474.0,194865003,Rupture of cardiac wall without hemopericardium as current complication following acute myocardial infarction,SNOMED,Condition
-461,461,476.0,16528621000119102,Rupture of interventricular septum following acute myocardial infarction,SNOMED,Condition
-462,462,477.0,30277009,Rupture of ventricle due to acute myocardial infarction,SNOMED,Condition
-463,463,478.0,386138005,Stented coronary artery,SNOMED,Condition
-464,464,479.0,3546002,Coronary artery venous graft,SNOMED,Procedure
-465,465,480.0,11101003,Coronary Angioplasty,SNOMED,Procedure
-466,466,481.0,14201006,Open angioplasty of coronary artery,SNOMED,Procedure
-467,467,482.0,41339005,Coronary angioplasty,SNOMED,Procedure
-468,468,483.0,68466008,Percut transluminal balloon angioplasty one coronary artery,SNOMED,Procedure
-469,469,484.0,85053006,"Percutaneous transluminal coronary angioplasty, multiple vessels",SNOMED,Procedure
-470,470,485.0,175021005,Allograft bypass of coronary artery,SNOMED,Procedure
-471,471,486.0,175029007,Prosthetic replacement of coronary artery,SNOMED,Procedure
-472,472,487.0,232717009,Coronary artery bypass graft,SNOMED,Procedure
-473,473,488.0,232720001,Coronary artery bypass grafts x 2,SNOMED,Procedure
-474,474,489.0,232721002,Coronary artery bypass grafts x 3,SNOMED,Procedure
-475,475,490.0,232722009,Coronary artery bypass grafts x 4,SNOMED,Procedure
-476,476,491.0,399261000,[V]Presence of coronary artery bypass graft,SNOMED,Procedure
-477,477,492.0,429639007,Perc translum balloon angioplasty insert 1-2 stents cor art,SNOMED,Procedure
-478,478,493.0,707828002,Percut translum cutting balloon angioplasty coronary artery,SNOMED,Procedure
-479,479,494.0,736968006,Saphenous vein graft replacement of three coronary arteries,SNOMED,Procedure
-480,480,495.0,736969003,Saphenous vein graft replacement of two coronary arteries,SNOMED,Procedure
-481,481,496.0,736973000,Allograft replacement of two coronary arteries,SNOMED,Procedure
-482,482,497.0,61236006,Aortocoronary artery bypass graft repeated,SNOMED,Procedure
-483,483,498.0,737276005,Aortocoronary bypass graft present,SNOMED,Procedure
-484,484,499.0,131521000119101,Bare metal stent in anterior descending branch of left coronary artery,SNOMED,Procedure
-485,485,500.0,131561000119106,Bare metal stent in branch of right coronary artery,SNOMED,Procedure
-486,486,501.0,131591000119104,Bare metal stent in circumflex branch of left coronary artery,SNOMED,Procedure
-487,487,502.0,286241000119106,Bare metal stent in posterior descending branch of right coronary artery,SNOMED,Procedure
-488,488,503.0,286261000119105,Bypass stent graft present,SNOMED,Procedure
-489,489,504.0,286271000119104,Coronary artery bypass graft stent present,SNOMED,Procedure
-490,490,505.0,737278006,Coronary artery graft present,SNOMED,Procedure
-491,491,506.0,251019006,Coronary bypass graft finding,SNOMED,Procedure
-492,492,507.0,131601000119106,Drug coated stent in anterior descending branch of left coronary artery,SNOMED,Procedure
-493,493,508.0,131551000119109,Drug coated stent in branch of right coronary artery,SNOMED,Procedure
-494,494,509.0,131581000119102,Drug coated stent in circumflex branch of left coronary artery,SNOMED,Procedure
-495,495,510.0,286251000119108,Drug coated stent in posterior descending branch of right coronary artery,SNOMED,Procedure
-496,496,511.0,473155009,History of angioplasty,SNOMED,Procedure
-497,497,512.0,429117009,History of aortofemoral bypass surgery,SNOMED,Procedure
-498,498,513.0,429367008,History of arterial bypass of lower limb artery,SNOMED,Procedure
-499,499,515.0,428308007,History of percutaneous transluminal coronary angioplasty,SNOMED,Procedure
-500,500,516.0,428375006,History of placement of stent for coronary artery disease,SNOMED,Procedure
-501,501,517.0,428912006,History of placement of stent in anterior descending branch of left coronary artery,SNOMED,Procedure
-502,502,518.0,428664003,History of placement of stent in circumflex branch of left coronary artery,SNOMED,Procedure
-503,503,519.0,00.66,History of placement of stent in coronary artery bypass graft,SNOMED,Procedure
-504,504,520.0,371822007,Patient post percutaneous transluminal coronary angioplasty,SNOMED,Procedure
-505,505,521.0,216621000119100,Stent in anterior descending branch of left coronary artery,SNOMED,Procedure
-506,506,522.0,130551000119103,Stent in branch of right coronary artery,SNOMED,Procedure
-507,507,523.0,216631000119102,Stent in circumflex branch of left coronary artery,SNOMED,Procedure
-508,508,524.0,286281000119101,Stent in posterior descending branch of right coronary artery,SNOMED,Procedure
-509,509,525.0,411.2,Myocardial infarction,PheCode,Condition
-510,510,526.0,411.0,Ischemic Heart Disease,PheCode,Condition
-511,511,529.0,411.3,Angina pectoris,PheCode,Condition
-512,512,530.0,411.8,"Other chronic ischemic heart disease, unspecified",PheCode,Condition
-513,513,531.0,411.4,Coronary atherosclerosis,PheCode,Condition
-514,514,59.0,I23.4,Rupture of chordae tendinae without hemopericardium as current complication following acute myocardial infarction,ICD10,Condition
-515,515,71.0,0211xxx,"Bypass of Coronary Artery, Two Arteries",ICD10,Condition
-516,516,72.0,0212xxx,"Bypass of Coronary Artery, Three Arteries",ICD10,Condition
-517,517,73.0,0213xxx,"Bypass of Coronary Artery, Four or More Arteries",ICD10,Condition
-518,518,86.0,0210xxx,"Bypass of Coronary Artery, One Artery",ICD10,Condition
-519,519,87.0,1,Percutaneous transluminal coronary angioplasty [PTCA],ICD9,Condition
-520,520,88.0,36,Open chest coronary artery angioplasty ,ICD9,Condition
-521,521,137.0,430,Certain sequelae of myocardial infarction not elsewhere classified acquired cardiac septal defect,ICD9,Condition
-522,522,256.0,936000000000000,Perc translum ball angio insert 1-2 drug elut stents cor art,SNOMED,Condition
-523,523,260.0,23311000000000,Acute myocardial infarction due to right coronary artery occlusion,SNOMED,Condition
-524,524,282.0,285981000000000,Acute myocardial infarction of other anterior wall episode of care unspecified,SNOMED,Condition
-525,525,283.0,15713000000000000,Acute myocardial infarction of other anterior wall episode of care unspecified,SNOMED,Condition
-526,526,300.0,15712800000000000,Acute myocardial infarction of other lateral wall episode of care unspecified,SNOMED,Condition
-527,527,301.0,15712900000000000,Acute myocardial infarction of other lateral wall episode of care unspecified,SNOMED,Condition
-528,528,310.0,15713200000000000,Acute myocardial infarction of other specified sites episode of care unspecified,SNOMED,Condition
-529,529,331.0,15713100000000000,Acute ST segment elevation myocardial infarction due to left coronary artery occlusion,SNOMED,Condition
-530,530,348.0,15962500000000000,Acute ST segment elevation myocardial infarction of anteroapical wall,SNOMED,Condition
-531,531,353.0,12238100000000000,Acute ST segment elevation myocardial infarction of inferolateral wall,SNOMED,Condition
-532,532,354.0,12238200000000000,Acute ST segment elevation myocardial infarction of inferoposterior wall,SNOMED,Condition
-533,533,365.0,131521000000000,Bare metal stent in anterior descending branch of left coronary artery,SNOMED,Condition
-534,534,366.0,131561000000000,Bare metal stent in branch of right coronary artery,SNOMED,Condition
-535,535,367.0,131591000000000,Bare metal stent in circumflex branch of left coronary artery,SNOMED,Condition
-536,536,368.0,286241000000000,Bare metal stent in posterior descending branch of right coronary artery,SNOMED,Condition
-537,537,369.0,286261000000000,Bypass stent graft present,SNOMED,Condition
-538,538,371.0,11018700000000000,Coronary arteriosclerosis after percutaneous coronary angioplasty,SNOMED,Condition
-539,539,372.0,286271000000000,Coronary artery bypass graft stent present,SNOMED,Condition
-540,540,376.0,131601000000000,Drug coated stent in anterior descending branch of left coronary artery,SNOMED,Condition
-541,541,377.0,131551000000000,Drug coated stent in branch of right coronary artery,SNOMED,Condition
-542,542,378.0,131581000000000,Drug coated stent in circumflex branch of left coronary artery,SNOMED,Condition
-543,543,379.0,286251000000000,Drug coated stent in posterior descending branch of right coronary artery,SNOMED,Condition
-544,544,390.0,130541000000000,History of placement of stent in coronary artery bypass graft,SNOMED,Condition
-545,545,399.0,691471000000000,Other acute and subacute forms of ischaemic heart disease,SNOMED,Condition
-546,546,403.0,373108000,Post percutaneous transluminal coronary angioplasty,SNOMED,Condition
-547,547,415.0,16528600000000000,Rupture of interventricular septum following acute myocardial infarction,SNOMED,Condition
-548,548,417.0,216621000000000,Stent in anterior descending branch of left coronary artery,SNOMED,Condition
-549,549,418.0,130551000000000,Stent in branch of right coronary artery,SNOMED,Condition
-550,550,419.0,216631000000000,Stent in circumflex branch of left coronary artery,SNOMED,Condition
-551,551,420.0,286281000000000,Stent in posterior descending branch of right coronary artery,SNOMED,Condition
-552,552,429.0,16415100000000000,Supraventricular tachycardia following acute myocardial infarction,SNOMED,Condition
+92928,"Percutaneous transcatheter placement of intracoronary stent(s), with coronary angioplasty when performed; single major coronary artery or branch",CPT,Procedure
+92929,"Percutaneous transcatheter placement of intracoronary stent(s), with coronary angioplasty when performed; each additional branch of a major coronary artery (List separately in addition to code for primary procedure)",CPT,Procedure
+92933,"Percutaneous transluminal coronary atherectomy, with intracoronary stent, with coronary angioplasty when performed; single major coronary artery or branch",CPT,Procedure
+92934,"Percutaneous transluminal coronary atherectomy, with intracoronary stent, with coronary angioplasty when performed; each additional branch of a major coronary artery (List separately in addition to code for primary procedure)",CPT,Procedure
+92937,"Percutaneous transluminal revascularization of or through coronary artery bypass graft (internal mammary, free arterial, venous), any combination of intracoronary stent, atherectomy and angioplasty, including distal protection when performed; single vessel",CPT,Procedure
+92938,"Percutaneous transluminal revascularization of or through coronary artery bypass graft (internal mammary, free arterial, venous), any combination of intracoronary stent, atherectomy and angioplasty, including distal protection when performed; each additional branch subtended by the bypass graft (List separately in addition to code for primary procedure)",CPT,Procedure
+92941,"Percutaneous transluminal revascularization of acute total/subtotal occlusion during acute myocardial infarction, coronary artery or coronary artery bypass graft, any combination of intracoronary stent, atherectomy and angioplasty, including aspiration thrombectomy when performed, single vessel",CPT,Procedure
+92943,"Percutaneous transluminal revascularization of acute total/subtotal occlusion during acute myocardial infarction, coronary artery or coronary artery bypass graft, any combination of intracoronary stent, atherectomy and angioplasty, including aspiration thrombectomy when performed, single vessel",CPT,Procedure
+92944,"Percutaneous transluminal revascularization of chronic total occlusion, coronary artery, coronary artery branch, or coronary artery bypass graft, any combination of intracoronary stent, atherectomy and angioplasty; each additional coronary artery, coronary artery branch, or bypass graft (List separately in addition to code for primary procedure)",CPT,Procedure
+92973,Percutaneous transluminal coronary thrombectomy mechanical (List separately in addition to code for primary procedure),CPT,Procedure
+92974,Transcatheter placement of radiation delivery device for subsequent coronary intravascular brachytherapy (List separately in addition to code for primary procedure),CPT,Procedure
+92975,"Thrombolysis, coronary; by intracoronary infusion, including selective coronary angiography",CPT,Procedure
+92977,An intravenous injection or infusion of a thrombolytic agent,CPT,Procedure
+92980,"Transcatheter placement of an intracoronary stent(s), percutaneous, with or without other therapeutic intervention, any method; single vessel",CPT,Procedure
+92981,"Transcatheter placement of an intracoronary stent(s), percutaneous, with or without other therapeutic intervention, any method; each additional vessel (List separately in addition to code for primary procedure)",CPT,Procedure
+92982,Percutaneous transluminal coronary balloon angioplasty; single vessel,CPT,Procedure
+92984,Percutaneous transluminal coronary balloon angioplasty; each additional vessel (List separately in addition to code for primary procedure),CPT,Procedure
+92995,"Percutaneous transluminal coronary atherectomy, by mechanical or other method, with or without balloon angioplasty; single vessel",CPT,Procedure
+92996,"Percutaneous transluminal coronary atherectomy, by mechanical or other method, with or without balloon angioplasty; each additional vessel (List separately in addition to code for primary procedure)",CPT,Procedure
+92998,Percutaneous transluminal pulmonary artery balloon angioplasty.,CPT,Procedure
+C9600,"Percutaneous transcatheter placement of drug eluting intracoronary stent(s), with coronary angioplasty when performed; single major coronary artery or branch",CPT,Procedure
+C9601,"Percutaneous transcatheter placement of drug-eluting intracoronary stent(s), with coronary angioplasty when performed; each additional branch of a major coronary artery (list separately in addition to code for primary procedure)",CPT,Procedure
+C9602,"Percutaneous transluminal coronary atherectomy, with drug eluting intracoronary stent, with coronary angioplasty when performed; single major coronary artery or branch",CPT,Procedure
+C9603,"Percutaneous transluminal coronary atherectomy, with drug-eluting intracoronary stent, with coronary angioplasty when performed; each additional branch of a major coronary artery (list separately in addition to code for primary procedure)",CPT,Procedure
+C9604,"Percutaneous transluminal revascularization of or through coronary artery bypass graft (internal mammary, free arterial, venous), any combination of drug-eluting intracoronary stent, atherectomy and angioplasty, including distal protection when performed; single vessel",CPT,Procedure
+C9605,"Percutaneous transluminal revascularization of or through coronary artery bypass graft (internal mammary, free arterial, venous), any combination of drug-eluting intracoronary stent, atherectomy and angioplasty, including distal protection when performed; each additional branch subtended by the bypass graft (list separately in addition to code for primary procedure)",CPT,Procedure
+C9606,"Percutaneous transluminal revascularization of acute total/subtotal occlusion during acute myocardial infarction, coronary artery or coronary artery bypass graft, any combination of drug-eluting intracoronary stent, atherectomy and angioplasty, including aspiration thrombectomy when performed, single vessel",CPT,Procedure
+C9607,"Percutaneous transluminal revascularization of chronic total occlusion, coronary artery, coronary artery branch, or coronary artery bypass graft, any combination of drug-eluting intracoronary stent, atherectomy and angioplasty; single vessel",CPT,Procedure
+C9608,"Percutaneous transluminal revascularization of chronic total occlusion, coronary artery, coronary artery branch, or coronary artery bypass graft, any combination of drug-eluting intracoronary stent, atherectomy and angioplasty; each additional coronary artery, coronary artery branch, or bypass graft (list separately in addition to code for primary procedure)",CPT,Procedure
+282006,Acute myocardial infarction of other lateral wall episode of care unspecified,SNOMED,Condition
+1077002,Acute myocardial infarction of other specified sites episode of care unspecified,SNOMED,Condition
+1755008,Old myocardial infarction,SNOMED,Condition
+3098007,Acute myocardial infarction of other specified sites episode of care unspecified,SNOMED,Condition
+10273003,Acute myocardial infarction of other specified sites episode of care unspecified,SNOMED,Condition
+15990001,Acute myocardial infarction of other lateral wall episode of care unspecified,SNOMED,Condition
+22298006,Heart attack,SNOMED,Condition
+52035003,Acute myocardial infarction of other anterior wall episode of care unspecified,SNOMED,Condition
+54329005,Anterior myocardial infarction NOS,SNOMED,Condition
+56276002,Acute myocardial infarction of other specified sites episode of care unspecified,SNOMED,Condition
+57054005,Acute myocardial infarction,SNOMED,Condition
+58612006,Acute myocardial infarction of lateral wall,SNOMED,Condition
+59063002,Acute myocardial infarction of other lateral wall episode of care unspecified,SNOMED,Condition
+62695002,Acute myocardial infarction of other anterior wall episode of care unspecified,SNOMED,Condition
+64627002,Acute myocardial infarction of other lateral wall episode of care unspecified,SNOMED,Condition
+65547006,Acute inferolateral infarction,SNOMED,Condition
+70211005,Acute anterolateral infarction,SNOMED,Condition
+70422006,Acute subendocardial infarction,SNOMED,Condition
+73795002,Inferior myocardial infarction NOS,SNOMED,Condition
+76593002,Acute myocardial infarction of inferoposterior wall,SNOMED,Condition
+79009004,Acute myocardial infarction of other specified sites episode of care unspecified,SNOMED,Condition
+164868007,Acute myocardial infarction of other anterior wall episode of care unspecified,SNOMED,Condition
+164871004,Acute myocardial infarction of other lateral wall episode of care unspecified,SNOMED,Condition
+194809007,Acute myocardial infarction of other specified sites episode of care unspecified,SNOMED,Condition
+194856005,Acute myocardial infarction of unspecified site episode of care unspecified,SNOMED,Condition
+194857001,Acute myocardial infarction of unspecified site episode of care unspecified,SNOMED,Condition
+194858006,Acute myocardial infarction of unspecified site episode of care unspecified,SNOMED,Condition
+194862000,Acute myocardial infarction of unspecified site episode of care unspecified,SNOMED,Condition
+194866002,Acute myocardial infarction of unspecified site episode of care unspecified,SNOMED,Condition
+194868001,Acute myocardial infarction of unspecified site episode of care unspecified,SNOMED,Condition
+233825009,Acute myocardial infarction of other anterior wall episode of care unspecified,SNOMED,Condition
+233826005,Acute myocardial infarction of other anterior wall episode of care unspecified,SNOMED,Condition
+233827001,Acute Q wave infarction - anterolateral,SNOMED,Condition
+233829003,Acute myocardial infarction of other inferior wall episode of care unspecified,SNOMED,Condition
+233830008,Acute myocardial infarction of other inferior wall episode of care unspecified,SNOMED,Condition
+233831007,Acute Q wave infarction - inferolateral,SNOMED,Condition
+233833005,Acute myocardial infarction of other lateral wall episode of care unspecified,SNOMED,Condition
+233834004,Acute myocardial infarction of other lateral wall episode of care unspecified,SNOMED,Condition
+233838001,Posterior myocardial infarction NOS,SNOMED,Condition
+304914007,Acute Q-wave infarct,SNOMED,Condition
+311792005,Acute myocardial infarction of other anterior wall episode of care unspecified,SNOMED,Condition
+311793000,Acute myocardial infarction of other inferior wall episode of care unspecified,SNOMED,Condition
+371817007,Acute myocardial infarction of other specified sites episode of care unspecified,SNOMED,Condition
+394710008,Acute myocardial infarction of unspecified site episode of care unspecified,SNOMED,Condition
+401303003,Acute ST segment elevation myocardial infarction,SNOMED,Condition
+401314000,Acute non-ST segment elevation myocardial infarction,SNOMED,Condition
+418044006,Acute myocardial infarction of unspecified site episode of care unspecified,SNOMED,Condition
+703164000,Acute myocardial infarction of other anterior wall episode of care unspecified,SNOMED,Condition
+703165004,Acute myocardial infarction of other anterior wall episode of care unspecified,SNOMED,Condition
+703209002,Acute myocardial infarction of other inferior wall episode of care unspecified,SNOMED,Condition
+703210007,Acute myocardial infarction of other anterior wall episode of care unspecified,SNOMED,Condition
+703211006,Acute myocardial infarction of unspecified site episode of care unspecified,SNOMED,Condition
+703213009,Acute myocardial infarction of other inferior wall episode of care unspecified,SNOMED,Condition
+703251009,Acute myocardial infarction of inferior wall involving right ventricle,SNOMED,Condition
+703252002,Acute myocardial infarction of other anterior wall episode of care unspecified,SNOMED,Condition
+703253007,Acute myocardial infarction of other inferior wall episode of care unspecified,SNOMED,Condition
+840309000,Acute ST segment elevation myocardial infarction due to proximal left anterior descending coronary artery occlusion,SNOMED,Condition
+840312002,Acute ST segment elevation myocardial infarction due to mid left anterior descending coronary artery occlusion,SNOMED,Condition
+840316004,Acute ST segment elevation myocardial infarction due to distal left anterior descending coronary artery occlusion,SNOMED,Condition
+840609007,Acute ST segment elevation myocardial infarction due to occlusion of anterior descending branch of left coronary artery,SNOMED,Condition
+840680009,Acute ST segment elevation myocardial infarction due to occlusion of septal branch of anterior descending branch of left coronary artery,SNOMED,Condition
+846668006,Acute ST segment elevation myocardial infarction due to occlusion of diagonal branch of anterior descending branch of left coronary artery,SNOMED,Condition
+846683001,Acute ST segment elevation myocardial infarction due to occlusion of intermediate artery,SNOMED,Condition
+868214006,Acute ST segment elevation myocardial infarction due to occlusion of proximal portion of right coronary artery,SNOMED,Condition
+868217004,Acute ST segment elevation myocardial infarction due to occlusion of distal portion of right coronary artery,SNOMED,Condition
+868220007,Acute ST segment elevation myocardial infarction due to occlusion of mid portion of right coronary artery,SNOMED,Condition
+868224003,Acute ST segment elevation myocardial infarction due to occlusion of marginal branch of right coronary artery,SNOMED,Condition
+868225002,Acute ST segment elevation myocardial infarction due to occlusion of posterior descending branch of right coronary artery,SNOMED,Condition
+868226001,Acute ST segment elevation myocardial infarction due to occlusion of posterior lateral branch of right coronary artery,SNOMED,Condition
+896689003,Acute myocardial infarction due to occlusion of circumflex branch of left coronary artery,SNOMED,Condition
+896691006,Acute ST segment elevation myocardial infarction due to occlusion of circumflex branch of left coronary artery,SNOMED,Condition
+23311000119105,Acute myocardial infarction due to right coronary artery occlusion,SNOMED,Condition
+12238111000119106,Acute ST segment elevation myocardial infarction of inferoposterior wall,SNOMED,Condition
+15713081000119108,Acute ST segment elevation myocardial infarction due to left coronary artery occlusion,SNOMED,Condition
+15962541000119106,Acute ST segment elevation myocardial infarction of anteroapical wall,SNOMED,Condition
+723860000,Arrhythmia due to and following acute myocardial infarction,SNOMED,Condition
+194863005,Atrial septal defect due to and following acute myocardial infarction,SNOMED,Condition
+233847009,Cardiac rupture due to and following acute myocardial infarction,SNOMED,Condition
+827164008,Delayed postmyocardial infarction pericarditis,SNOMED,Condition
+827163002,Early postmyocardial infarction pericarditis,SNOMED,Condition
+1142308000,Mitral valve regurgitation due to acute myocardial infarction,SNOMED,Condition
+703330009,Mitral valve regurgitation due to acute myocardial infarction with papillary muscle and chordal rupture,SNOMED,Condition
+42531007,Other acute and subacute forms of ischaemic heart disease,SNOMED,Condition
+46109009,Other acute and subacute forms of ischaemic heart disease,SNOMED,Condition
+194823009,Other acute and subacute forms of ischaemic heart disease,SNOMED,Condition
+194849004,Other acute and subacute forms of ischaemic heart disease,SNOMED,Condition
+413439005,Other acute and subacute forms of ischaemic heart disease,SNOMED,Condition
+713405002,Other acute and subacute forms of ischaemic heart disease,SNOMED,Condition
+71023004,Pericarditis secondary to acute myocardial infarction,SNOMED,Condition
+314116003,Post infarct angina,SNOMED,Condition
+233929004,Post-infarction mural thrombus,SNOMED,Condition
+233885007,Post-infarction pericarditis,SNOMED,Condition
+233846000,Post-infarction ventricular septal defect,SNOMED,Condition
+66189004,Postmyocardial infarction syndrome,SNOMED,Condition
+703360004,Subendocardial infarction episode of care unspecified,SNOMED,Condition
+16415081000119104,Supraventricular tachycardia following acute myocardial infarction,SNOMED,Condition
+723858002,Ventricular aneurysm due to and following acute myocardial infarction,SNOMED,Condition
+233889001,Post-infarction hemopericardium,SNOMED,Condition
+129574000,Postoperative myocardial infarction,SNOMED,Condition
+429245005,Recurrent coronary arteriosclerosis after percutaneous transluminal coronary angioplasty,SNOMED,Condition
+194865003,Rupture of cardiac wall without hemopericardium as current complication following acute myocardial infarction,SNOMED,Condition
+16528621000119102,Rupture of interventricular septum following acute myocardial infarction,SNOMED,Condition
+30277009,Rupture of ventricle due to acute myocardial infarction,SNOMED,Condition
+386138005,Stented coronary artery,SNOMED,Condition
+3546002,Coronary artery venous graft,SNOMED,Procedure
+11101003,Coronary Angioplasty,SNOMED,Procedure
+14201006,Open angioplasty of coronary artery,SNOMED,Procedure
+41339005,Coronary angioplasty,SNOMED,Procedure
+68466008,Percut transluminal balloon angioplasty one coronary artery,SNOMED,Procedure
+85053006,"Percutaneous transluminal coronary angioplasty, multiple vessels",SNOMED,Procedure
+175021005,Allograft bypass of coronary artery,SNOMED,Procedure
+175029007,Prosthetic replacement of coronary artery,SNOMED,Procedure
+232717009,Coronary artery bypass graft,SNOMED,Procedure
+232720001,Coronary artery bypass grafts x 2,SNOMED,Procedure
+232721002,Coronary artery bypass grafts x 3,SNOMED,Procedure
+232722009,Coronary artery bypass grafts x 4,SNOMED,Procedure
+399261000,[V]Presence of coronary artery bypass graft,SNOMED,Procedure
+429639007,Perc translum balloon angioplasty insert 1-2 stents cor art,SNOMED,Procedure
+707828002,Percut translum cutting balloon angioplasty coronary artery,SNOMED,Procedure
+736968006,Saphenous vein graft replacement of three coronary arteries,SNOMED,Procedure
+736969003,Saphenous vein graft replacement of two coronary arteries,SNOMED,Procedure
+736973000,Allograft replacement of two coronary arteries,SNOMED,Procedure
+61236006,Aortocoronary artery bypass graft repeated,SNOMED,Procedure
+737276005,Aortocoronary bypass graft present,SNOMED,Procedure
+131521000119101,Bare metal stent in anterior descending branch of left coronary artery,SNOMED,Procedure
+131561000119106,Bare metal stent in branch of right coronary artery,SNOMED,Procedure
+131591000119104,Bare metal stent in circumflex branch of left coronary artery,SNOMED,Procedure
+286241000119106,Bare metal stent in posterior descending branch of right coronary artery,SNOMED,Procedure
+286261000119105,Bypass stent graft present,SNOMED,Procedure
+286271000119104,Coronary artery bypass graft stent present,SNOMED,Procedure
+737278006,Coronary artery graft present,SNOMED,Procedure
+251019006,Coronary bypass graft finding,SNOMED,Procedure
+131601000119106,Drug coated stent in anterior descending branch of left coronary artery,SNOMED,Procedure
+131551000119109,Drug coated stent in branch of right coronary artery,SNOMED,Procedure
+131581000119102,Drug coated stent in circumflex branch of left coronary artery,SNOMED,Procedure
+286251000119108,Drug coated stent in posterior descending branch of right coronary artery,SNOMED,Procedure
+473155009,History of angioplasty,SNOMED,Procedure
+429117009,History of aortofemoral bypass surgery,SNOMED,Procedure
+429367008,History of arterial bypass of lower limb artery,SNOMED,Procedure
+428308007,History of percutaneous transluminal coronary angioplasty,SNOMED,Procedure
+428375006,History of placement of stent for coronary artery disease,SNOMED,Procedure
+428912006,History of placement of stent in anterior descending branch of left coronary artery,SNOMED,Procedure
+428664003,History of placement of stent in circumflex branch of left coronary artery,SNOMED,Procedure
+00.66,History of placement of stent in coronary artery bypass graft,SNOMED,Procedure
+371822007,Patient post percutaneous transluminal coronary angioplasty,SNOMED,Procedure
+216621000119100,Stent in anterior descending branch of left coronary artery,SNOMED,Procedure
+130551000119103,Stent in branch of right coronary artery,SNOMED,Procedure
+216631000119102,Stent in circumflex branch of left coronary artery,SNOMED,Procedure
+286281000119101,Stent in posterior descending branch of right coronary artery,SNOMED,Procedure
+411.2,Myocardial infarction,PheCode,Condition
+411.0,Ischemic Heart Disease,PheCode,Condition
+411.3,Angina pectoris,PheCode,Condition
+411.8,"Other chronic ischemic heart disease, unspecified",PheCode,Condition
+411.4,Coronary atherosclerosis,PheCode,Condition
+I23.4,Rupture of chordae tendinae without hemopericardium as current complication following acute myocardial infarction,ICD10,Condition
+0211xxx,"Bypass of Coronary Artery, Two Arteries",ICD10,Condition
+0212xxx,"Bypass of Coronary Artery, Three Arteries",ICD10,Condition
+0213xxx,"Bypass of Coronary Artery, Four or More Arteries",ICD10,Condition
+0210xxx,"Bypass of Coronary Artery, One Artery",ICD10,Condition
+1,Percutaneous transluminal coronary angioplasty [PTCA],ICD9,Condition
+36,Open chest coronary artery angioplasty ,ICD9,Condition
+430,Certain sequelae of myocardial infarction not elsewhere classified acquired cardiac septal defect,ICD9,Condition
+936000000000000,Perc translum ball angio insert 1-2 drug elut stents cor art,SNOMED,Condition
+23311000000000,Acute myocardial infarction due to right coronary artery occlusion,SNOMED,Condition
+285981000000000,Acute myocardial infarction of other anterior wall episode of care unspecified,SNOMED,Condition
+15713000000000000,Acute myocardial infarction of other anterior wall episode of care unspecified,SNOMED,Condition
+15712800000000000,Acute myocardial infarction of other lateral wall episode of care unspecified,SNOMED,Condition
+15712900000000000,Acute myocardial infarction of other lateral wall episode of care unspecified,SNOMED,Condition
+15713200000000000,Acute myocardial infarction of other specified sites episode of care unspecified,SNOMED,Condition
+15713100000000000,Acute ST segment elevation myocardial infarction due to left coronary artery occlusion,SNOMED,Condition
+15962500000000000,Acute ST segment elevation myocardial infarction of anteroapical wall,SNOMED,Condition
+12238100000000000,Acute ST segment elevation myocardial infarction of inferolateral wall,SNOMED,Condition
+12238200000000000,Acute ST segment elevation myocardial infarction of inferoposterior wall,SNOMED,Condition
+131521000000000,Bare metal stent in anterior descending branch of left coronary artery,SNOMED,Condition
+131561000000000,Bare metal stent in branch of right coronary artery,SNOMED,Condition
+131591000000000,Bare metal stent in circumflex branch of left coronary artery,SNOMED,Condition
+286241000000000,Bare metal stent in posterior descending branch of right coronary artery,SNOMED,Condition
+286261000000000,Bypass stent graft present,SNOMED,Condition
+11018700000000000,Coronary arteriosclerosis after percutaneous coronary angioplasty,SNOMED,Condition
+286271000000000,Coronary artery bypass graft stent present,SNOMED,Condition
+131601000000000,Drug coated stent in anterior descending branch of left coronary artery,SNOMED,Condition
+131551000000000,Drug coated stent in branch of right coronary artery,SNOMED,Condition
+131581000000000,Drug coated stent in circumflex branch of left coronary artery,SNOMED,Condition
+286251000000000,Drug coated stent in posterior descending branch of right coronary artery,SNOMED,Condition
+130541000000000,History of placement of stent in coronary artery bypass graft,SNOMED,Condition
+691471000000000,Other acute and subacute forms of ischaemic heart disease,SNOMED,Condition
+373108000,Post percutaneous transluminal coronary angioplasty,SNOMED,Condition
+16528600000000000,Rupture of interventricular septum following acute myocardial infarction,SNOMED,Condition
+216621000000000,Stent in anterior descending branch of left coronary artery,SNOMED,Condition
+130551000000000,Stent in branch of right coronary artery,SNOMED,Condition
+216631000000000,Stent in circumflex branch of left coronary artery,SNOMED,Condition
+286281000000000,Stent in posterior descending branch of right coronary artery,SNOMED,Condition
+16415100000000000,Supraventricular tachycardia following acute myocardial infarction,SNOMED,Condition
+410.00 ,Acute myocardial infarction of anterolateral wall episode of care unspecified,ICD-9,Diagnostic
+410.01 ,Acute myocardial infarction of anterolateral wall initial episode of care,ICD-9,Diagnostic
+410.02,Acute myocardial infarction of anterolatera l wall subsequent episode of care,ICD-9,Diagnostic
+410.10,Acute myocardial infarction of other anterior wall episode of care unspecified,ICD-9,Diagnostic
+410.11 ,Acute myocardial infarction of other anterior wall initial episode of care,ICD-9,Diagnostic
+410.12 ,Acute myocardial infarction of other anterior wall subsequent episode of care,ICD-9,Diagnostic
+410.20 ,Acute myocardial infarction of inferolateral wall episode of care unspecified,ICD-9,Diagnostic
+410.21 ,Acute myocardial infarction of inferolateral wall initial episode of care,ICD-9,Diagnostic
+410.22,Acute myocardial infarction of inferolateral wall subsequent episode of care,ICD-9,Diagnostic
+410.30 ,Acute myocardial infarction of inferoposterior wall episode of care unspecified,ICD-9,Diagnostic
+410.31,Acute myocardial infarction of inferoposterior wall initial episode of care,ICD-9,Diagnostic
+410.32 ,Acute myocardial infarction of inferoposterior wall subsequent episode of care,ICD-9,Diagnostic
+410.40 ,Acute myocardial infarction of other inferior wall episode of care unspecified,ICD-9,Diagnostic
+410.41 ,Acute myocardial infarction of other inferior wall initial episode of care,ICD-9,Diagnostic
+410.42 ,Acute myocardial infarction of other inferior wall subsequent episode of care,ICD-9,Diagnostic
+410.50 ,Acute myocardial infarction of other lateral wall episode of care unspecified,ICD-9,Diagnostic
+410.51 ,Acute myocardial infarction of other lateral wall initial episode of care,ICD-9,Diagnostic
+410.52 ,Acute myocardial infarction of other lateral wall subsequent episode of care,ICD-9,Diagnostic
+410.60 ,True posterior wall infarction episode of care unspecified,ICD-9,Diagnostic
+410.61 ,True posterior wall infarction initial episode of care,ICD-9,Diagnostic
+410.62 ,True posterior wall infarction subsequent episode of care,ICD-9,Diagnostic
+410.70 ,Subendocardial infarction episode of care unspecified,ICD-9,Diagnostic
+410.71 ,Subendocardial infarction initial episode of care,ICD-9,Diagnostic
+410.72 ,Subendocardial infarction subsequent episode of care,ICD-9,Diagnostic
+410.80 ,Acute myocardial infarction of other specified sites episode of care unspecified,ICD-9,Diagnostic
+410.81 ,Acute myocardial infarction of other specified sites initial episode of care,ICD-9,Diagnostic
+410.82 ,Acute myocardial infarction of other specified sites subsequent episode of care,ICD-9,Diagnostic
+410.90 ,Acute myocardial infarction of unspecified site episode of care unspecified,ICD-9,Diagnostic
+410.91 ,Acute myocardial infarction of unspecified site initial episode of care,ICD-9,Diagnostic
+410.92 ,Acute myocardial infarction of unspecified site subsequent episode of care,ICD-9,Diagnostic
+412,Old myocardial infarction,ICD-9,Diagnostic
+429.71,Certain sequelae of myocardial infarction not elsewhere classified acquired cardiac septal defect,ICD-9,Diagnostic
+429.79,Certain sequelae of myocardial infarction not elsewhere classified other,ICD-9,Diagnostic
+I21.01,ST elevation (STEMI) myocardial infarction involving left main coronary artery,ICD-10,Diagnostic
+I21.02,ST elevation (STEMI) myocardial infarction involving left anterior descending coronary artery,ICD-10,Diagnostic
+I21.09,ST elevation (STEMI) myocardial infarction involving other coronary artery of anterior wall,ICD-10,Diagnostic
+I21.11,ST elevation (STEMI) myocardial infarction involving right coronary artery,ICD-10,Diagnostic
+I21.19,ST elevation (STEMI) myocardial infarction involving other coronary artery of inferior wall,ICD-10,Diagnostic
+I21.21,ST elevation (STEMI) myocardial infarction involving left circumflex coronary artery,ICD-10,Diagnostic
+I21.29,ST elevation (STEMI) myocardial infarction involving other sites,ICD-10,Diagnostic
+I21.3,ST elevation (STEMI) myocardial infarction of unspecified site,ICD-10,Diagnostic
+I21.4,Non-ST elevation (NSTEMI) myocardial infarction,ICD-10,Diagnostic
+I22.0,Subsequent ST elevation (STEMI) myocardial infarction of anterior wall,ICD-10,Diagnostic
+I22.1,Subsequent ST elevation (STEMI) myocardial infarction of inferior wall,ICD-10,Diagnostic
+I22.2,Subsequent non-ST elevation (NSTEMI) myocardial infarction,ICD-10,Diagnostic
+I22.8,Subsequent ST elevation (STEMI) myocardial infarction of other sites,ICD-10,Diagnostic
+I22.9,Subsequent ST elevation (STEMI) myocardial infarction of unspecified site,ICD-10,Diagnostic
+I23.0,Hemopericardium as current complication following acute myocardial infarction,ICD-10,Diagnostic
+I23.1,Atrial septal defect as current complication following acute myocardial infarction,ICD-10,Diagnostic
+I23.2,Ventricular septal defect as current complication following acute myocardial infarction,ICD-10,Diagnostic
+I23.3,Rupture of cardiac wall without hemopericardium as current complication following acute myocardial infarction,ICD-10,Diagnostic
+I23.4,Rupture of chordae tendinae without hemopericardium as current complication following acute myocardial infarction,ICD-10,Diagnostic
+I23.5,Rupture of papillary muscle without hemopericardium as current complication following acute myocardial infarction,ICD-10,Diagnostic
+I23.6,"Thrombosis of atrium, auricular appendage, and ventricle as current complications following acute myocardial infarction.",ICD-10,Diagnostic
+I23.7,Postinfarction angina,ICD-10,Diagnostic
+I23.8,Other current complications following acute myocardial infarction,ICD-10,Diagnostic
+I24.1,Dressler's syndrome (postmyocardial infarction syndrome),ICD-10,Diagnostic
+I25.2,Old myocardial infarction,ICD-10,Diagnostic
+92920,Percutaneous coronary revascularization,CPT-4,Other
+92921,Percutaneous coronary revascularization,CPT-4,Other
+92924,Percutaneous coronary revascularization,CPT-4,Other
+92925,Percutaneous coronary revascularization,CPT-4,Other
+92928,Percutaneous coronary revascularization,CPT-4,Other
+92929,Percutaneous coronary revascularization,CPT-4,Other
+92933,Percutaneous coronary revascularization,CPT-4,Other
+92934,Percutaneous coronary revascularization,CPT-4,Other
+92937,Percutaneous coronary revascularization,CPT-4,Other
+92938,Percutaneous coronary revascularization,CPT-4,Other
+92941,Percutaneous coronary revascularization,CPT-4,Other
+92943,Percutaneous coronary revascularization,CPT-4,Other
+92944,Percutaneous coronary revascularization,CPT-4,Other
+92980,Percutaneous coronary revascularization,CPT-4,Other
+92981,Percutaneous coronary revascularization,CPT-4,Other
+92982,Percutaneous coronary revascularization,CPT-4,Other
+92984,Percutaneous coronary revascularization,CPT-4,Other
+92995,Percutaneous coronary revascularization,CPT-4,Other
+92996,Percutaneous coronary revascularization,CPT-4,Other
+92973,Percutaneous coronary revascularization,CPT-4,Other
+92974,Percutaneous coronary revascularization,CPT-4,Other
+00.66,Percutaneous transluminal coronary angioplasty [PTCA],ICD-9,Other
+36.03,Open chest coronary artery angioplasty ,ICD-9,Other
+36.04,Intracoronary artery thrombolytic infusion ,ICD-9,Other
+36.06,Insertion of non-drug-eluting coronary artery stent(s),ICD-9,Other
+36.07,Insertion of drug-eluting coronary artery stent(s),ICD-9,Other
+36.09,Other removal of coronary artery obstruction,ICD-9,Other
+V45.82,Percutaneous transluminal coronary angioplasty status,ICD-9,Other
+0270xxx,"Dilation of Coronary Artery, One Artery",ICD-10,Other
+0271xxx,"Dilation of Coronary Artery, Two Arteries",ICD-10,Other
+0272xxx,"Dilation of Coronary Artery, Three Arteries",ICD-10,Other
+0273xxx,"Dilation of Coronary Artery, Four or More Arteries",ICD-10,Other
+02C0xxx,"Extirpation of Coronary Artery, One Artery",ICD-10,Other
+02C1xxx,"Extirpation of Coronary Artery, Two Arteries",ICD-10,Other
+02C2xxx,"Extirpation of Coronary Artery, Three Arteries",ICD-10,Other
+02C3xxx,"Extirpation of Coronary Artery, Four or More Arteries",ICD-10,Other
+3E07017,"Introduction of Other Thrombolytic into Coronary Artery, Open Approach",ICD-10,Other
+3E070PZ,"Introduction of Platelet Inhibitor into Coronary Artery, Open Approach",ICD-10,Other
+3E07317,"Introduction of Other Thrombolytic into Coronary Artery, Percutaneous Approach",ICD-10,Other
+3E073PZ,"Introduction of Platelet Inhibitor into Coronary Artery, Percutaneous Approach",ICD-10,Other
+Z95.5,Presence of coronary angioplasty implant and graft,ICD-10,Other
+Z98.61,Coronary angioplasty status,ICD-10,Other
+33510,Coronary bypass surgery,CPT-4,Other
+33511,Coronary bypass surgery,CPT-4,Other
+33512,Coronary bypass surgery,CPT-4,Other
+33513,Coronary bypass surgery,CPT-4,Other
+33514,Coronary bypass surgery,CPT-4,Other
+33516,Coronary bypass surgery,CPT-4,Other
+33517,Coronary bypass surgery,CPT-4,Other
+33518,Coronary bypass surgery,CPT-4,Other
+33519,Coronary bypass surgery,CPT-4,Other
+33521,Coronary bypass surgery,CPT-4,Other
+33522,Coronary bypass surgery,CPT-4,Other
+33523,Coronary bypass surgery,CPT-4,Other
+33533,Coronary bypass surgery,CPT-4,Other
+33534,Coronary bypass surgery,CPT-4,Other
+33535,Coronary bypass surgery,CPT-4,Other
+33536,Coronary bypass surgery,CPT-4,Other
+36.10,"Aortocoronary bypass for heart revascularization, not otherwise specified",ICD-9,Other
+36.11,(Aorto)coronary bypass of one coronary artery ,ICD-9,Other
+36.12,(Aorto)coronary bypass of two coronary arteries ,ICD-9,Other
+36.13,(Aorto)coronary bypass of three coronary arteries ,ICD-9,Other
+36.14,(Aorto)coronary bypass of four or more coronary arteries,ICD-9,Other
+36.15,Single internal mammary-coronary artery bypass ,ICD-9,Other
+36.16,Double internal mammary-coronary artery bypass ,ICD-9,Other
+36.17,Abdominal-coronary artery bypass ,ICD-9,Other
+36.19,Other bypass anastomosis for heart revascularization ,ICD-9,Other
+36.2,Heart revascularization by arterial implant ,ICD-9,Other
+V45.81,Aortocoronary bypass status,ICD-9,Other
+0210xxx,"Bypass of Coronary Artery, One Artery",ICD-10,Other
+0211xxx,"Bypass of Coronary Artery, Two Arteries",ICD-10,Other
+0212xxx,"Bypass of Coronary Artery, Three Arteries",ICD-10,Other
+0213xxx,"Bypass of Coronary Artery, Four or More Arteries",ICD-10,Other
+Z95.1,Presence of coronary artery bypass graft,ICD-10,Other

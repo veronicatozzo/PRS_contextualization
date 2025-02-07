@@ -1,3 +1,6 @@
+#pgs_name=breast_cancer
+#pgs_id=breast_cancer
+#trait_reported=breast cancer
 #genome_build=GRCh38
 chr_name	chr_position	effect_allele	other_allele	effect_weight
 1	100414772	T	A	0.0373

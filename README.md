@@ -1,4 +1,4 @@
-Code for the context-based analysis of PRS in breast cancer and coronary heart disease. For information or bug reporting contact vtozzo@mednet.ucla.edu. 
+Code for the context-based analysis of PRS in breast cancer and coronary heart disease. For information or bug reporting contact sandra.lapinska@pennmedicine.upenn.edu. 
 
 Dependencies:
 - python >3.7
@@ -24,7 +24,12 @@ The first step of the pipeline requires the identification of cases and controls
 
 - the path where to save the processed data table
 
-- the path where to save the descriptive characteristics to put at the spreadsheet (https://docs.google.com/spreadsheets/d/1b7pdyeMqVFnSUUYCU4NW5sv78hS2CSA4fELrU5gnnHk/edit?usp=sharing) 
+- the path where to save the descriptive characteristics to put at the spreadsheet (https://docs.google.com/spreadsheets/d/1b7pdyeMqVFnSUUYCU4NW5sv78hS2CSA4fELrU5gnnHk/edit?usp=sharing)
+
+The headers of each of the files should be the following 
+encounters_file = [‘ID’, ‘encounter_date’, ‘inpatient’, ‘code’]
+bmi_file = [‘ID’, ‘encounter_date’, ‘bmi’]
+dem_file =  ['ID', 'self_identified_sex', 'birth_date',  'ancestry', 'race', 'ethnicity', 'DeathDate', 'last_recorded_encounter_date', 'First_occurrence', "PC1","PC2","PC3","PC4","PC5","PC6","PC7","PC8","PC9","PC10"]
 
 All dictionaries for the input and output files are available in `utils/dictionaries.xlsx`. The dictionary for the output file is in the sheet `phenotype_table`.
 
@@ -34,7 +39,7 @@ All dictionaries for the input and output files are available in `utils/dictiona
 
 ## Step 2 
 The second step of the pipeline is the computation of the PGS using pgsc_calc. As the results will depend on the specification in the samplesheet file, it is important to manually format the scores after this step so that they can be processed in step 3. 
-The score will be in  file called biobanknamespecifiedinsamplesheet_pgs.txt.gz that is a long format table with ID x PGS having columns SUM (unnormalized pgs), Z1_norm (pgs adjusted to have mean 0 across ancestries), Z2_norm (pgs adjusted to have mean 0 and unit standard deviation across ancestries). You might have two files for running the scores file from eMERGE and the PGS from the pgs catalog. Please combined them in one unique file with columns ['ID', 'BC_eMERGE', 'BC_PGS000507', 'CHD_eMERGE', 'CHD_PGS003725'], by the selecting the unnormalized pgs column SUM. 
+The score will be in  file called biobanknamespecifiedinsamplesheet_pgs.txt.gz that is a long format table with ID x PGS having columns SUM (unnormalized pgs), Z1_norm (pgs adjusted to have mean 0 across ancestries), Z2_norm (pgs adjusted to have mean 0 and unit standard deviation across ancestries). You might have two files for running the scores file from eMERGE and the PGS from the pgs catalog. Please combined them in one unique file with columns ['ID', 'BC_eMERGE', 'BC_PGS000507', 'CHD_eMERGE', 'CHD_PGS003725'], by the selecting the unnormalized pgs column SUM. For code on how to do this, please look at `pgsc_calc_setup.md`.
 
 Also look into the matchfile in  biobanknamespecifiedinsamplesheet_summary.csv and extract the overlap of variants with the used score. 
 

@@ -105,10 +105,10 @@ def calculate_effect_sizes(pgs_file, data_file, path_to_results):
     pgs = pd.read_csv(pgs_file, sep='\t')
     data = pd.read_csv(data_file, sep='\t')
     data = data.merge(pgs, on='ID')
-#     data = data[data.self_identified_sex.isin(['Male', 'Female'])]
+    data = data[data.self_identified_sex.isin(['Male', 'Female'])]
     data = pd.concat((data,
-                     pd.get_dummies(data['SIRE']),
-                    pd.get_dummies(data['self_identified_sex'])),
+                     pd.get_dummies(data['SIRE'], dtype=int),
+                    pd.get_dummies(data['self_identified_sex'], dtype=int)),
     axis=1)
     covs = ['Asian', 'Black', 'Hispanic', 'Other',
             'PC1', 'PC2', 'PC3', 'PC4', 'PC5', 'PC6', 'PC7', 'PC8',
@@ -122,6 +122,7 @@ def calculate_effect_sizes(pgs_file, data_file, path_to_results):
         data_to_analyze[f"Age_binned"] = pd.cut(data[f"{phe}_age"], [18, 45, 65, 100]).astype(str)
         data_to_analyze[f"BMI_binned"] = pd.cut(data[f"{phe}_BMI"], [0, 18.5, 24.9, 30, 50]).astype(str)
         covs_aux = covs+[f'{phe}_age', f'{phe}_BMI']
+        # data_to_analyze = data_to_analyze.dropna(subset=['BC_age', 'BC_BMI', 'CHD_age', 'CHD_BMI'], how='any')
 
         data_to_analyze[p+'_standardized'] = (data_to_analyze[p]-np.mean(data_to_analyze[p]))/np.std(data_to_analyze[p])
         data_to_analyze[p+'_standardized_resid'] = sm.OLS(data_to_analyze[p], 
@@ -168,8 +169,8 @@ def format_PGS_for_R2_analysis(phenotype_file, pgs_file, path_to_results):
     data = pd.read_csv(phenotype_file, sep='\t')
     data = data.merge(pgs, on='ID')
     data = pd.concat((data,
-                     pd.get_dummies(data['SIRE']),
-                     pd.get_dummies(data['self_identified_sex'])),
+                     pd.get_dummies(data['SIRE'], dtype=int),
+                     pd.get_dummies(data['self_identified_sex'], dtype=int)),
                     axis=1)
     covs = ['Asian', 'Black', 'Hispanic', 'Other',
         'PC1', 'PC2', 'PC3', 'PC4', 'PC5', 'PC6', 'PC7', 'PC8',
